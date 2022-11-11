@@ -1,0 +1,103 @@
+
+
+
+
+
+
+.latest_card_box_add{
+    width: 100%;
+    display: flex;
+}
+
+
+.admssionleft{
+width: 60%;
+/* height: 500px; */
+background-color:#fafbfc;
+color: white;
+}
+
+.admssionleft .card_img11{
+width: 80%;
+}
+
+.admssionleft .card_img11 img{
+    width: 100%;
+    }
+
+
+.mnc{
+    text-decoration: none;
+}
+
+
+.admssionleft .title{
+    margin-top: 50px;
+}
+.admssionleft .title p{
+    color: black;
+    font-size: 20px;
+}
+
+
+.accdright{
+width: 40%;
+color: rgb(14, 13, 13);
+display: flex;
+flex-direction: column;
+
+}
+.accdright .card-image1{
+    height: 300px;
+    width: 80%;
+    
+
+}
+.accdright .card-image1 img{
+    height: 100%;
+    width: 100%;
+    margin: 20px;
+}
+
+.admssionleft h5{
+    color: black;
+}
+
+
+.admcon{
+background-color: rgb(29,71,118);
+color: white;
+font-size: 1.2vmax;
+}
+
+@media screen and (max-width:768px){
+    .latest_card_box_add{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .admssionleft{
+        width: 100%;
+        }
+        .accdright{
+            width: 100%;
+            color: white;
+            }
+            .accdright .card-image1{
+                width: 80%;
+                height: auto;
+                
+                
+            
+            }
+            .accdright .card-image1 img{
+                text-align: center;
+            }
+            
+            .admssionleft .title p{
+                color: black;
+                font-size: 18px;
+            }
+                 
+}

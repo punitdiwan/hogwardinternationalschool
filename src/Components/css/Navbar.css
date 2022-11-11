@@ -1,0 +1,138 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ascender Serif";
+}
+.navmain{
+    background-color: #1D4776;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    padding: 0;
+
+}
+.navleft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+}
+.navleft .logo {
+    height: auto;
+ width: 10vw;
+}
+.navleft .logo img{
+ height: 100%;
+ width: 100%;
+ /* background-color: red; */
+}
+.navmid{
+    color: white;
+    text-align: center;
+    width: 33%;
+
+}
+
+.socialmedia{
+    width: 5vw; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.socialmedia i{
+    font-size: 2vmax;
+}
+
+.navright{
+    /* width: 15vw; */
+    width: 33%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.seacrch{
+    display: flex;
+    
+    
+}
+.seacrch .btn{
+    color: rgb(255, 255, 255);
+    border-radius: 0px;
+    border: none;
+}
+.aa{
+    border: white;
+}
+
+
+.nextnavbar {
+font-size: 1.3vmax;
+color: #313C74;
+}
+.loginbtn{
+    color: white;
+    background-color: #EF4444;
+}
+.nextnavbar .loginbtn {
+    color: white;
+}
+.nextnavbar .loginbtn:hover{
+    background-color: #EF4444;
+
+}
+
+.navbar-toggler{
+    border: none;
+  
+}
+#firsth{
+    font-size: 50px;
+}
+
+@media screen and (max-width:768px){
+    .navmain{
+    flex-direction: column;
+    }
+    .navleft {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .navmid {
+        width: 100%;
+    }
+    .navright {
+        width: 100%;
+    }
+    .socialmedia{
+        width: 40vw; 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+    }
+    .socialmedia i{
+        font-size: 30px;
+    }
+    .nav-link{
+        font-size: 15px;
+        color: #2F3A72;
+        font-weight: bold;
+    }
+    .navtoggle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .navleft .logo {
+        height: auto;
+     width: 30vw;
+    }
+}
+
+

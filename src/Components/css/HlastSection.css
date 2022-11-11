@@ -1,0 +1,142 @@
+.latest_card_box_hls{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.heading{
+font-size: 2.1vmax;
+padding: 10px 10vmax;
+color: #1D4776;
+font-weight: bold;
+}
+
+.hlsleft{
+width: 22%;
+
+}
+
+.hlsleft .title p{
+font-size: 1.2vmax;
+}
+.hlsmid{
+width: 56%;
+}
+
+.hlsmid p{
+font-size: 1.2vmax;
+}
+
+.hlsright{
+width: 22%;
+}
+
+.hlsright .title p{
+font-size: 1.2vmax;
+}
+
+.card_img{
+height: 150px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+/* background-color: red; */
+}
+.card_img img{
+height: 100%;
+width: 15%;
+}
+
+.card_img{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    }
+   
+
+.title1{
+    display: flex;
+    align-items: center;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.hlstbutton{
+width: 50%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.hls{
+background-color: #1D4776;
+color: white;
+border-radius:0px;
+font-size: 1.2vmax;
+}
+
+.ccc1_img{
+
+    height: 500px;
+    width: 100%;
+   
+    
+}
+.ccc1_img img{
+    height: 100%;
+    width: 100%;     
+}
+.ccc2_img{
+
+    height: 300px;
+    width: 100%;
+  
+
+}
+.ccc2_img img{
+    height: 100%;
+    width: 100%;     
+}
+
+@media screen and (max-width:768px){
+    .latest_card_box_hls{
+        flex-direction: column;
+    }
+    .hlsleft{
+        width: 100%;
+        
+        }
+        .hlsmid{
+            width: 100%;
+            
+            }
+            .hlsright{
+                width: 100%;
+                
+                }
+                .hlstbutton{
+                    width: 80%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    }
+                    .card_img img{
+                        height: 100%;
+                        width: 30%;
+                        }
+                        .hls{
+                            background-color: #1D4776;
+                            color: white;
+                            border-radius:0px;
+                            font-size: 15px;
+                            }
+                            .hlsmid  p{
+                                font-size: 15px;
+                                }
+}

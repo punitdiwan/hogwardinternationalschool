@@ -1,0 +1,37 @@
+.liscontainer{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.facilitycontent{
+    text-align: left;
+    font-size: 25px;
+    /* background-color: rebeccapurple; */
+}
+.liscamplogo{
+    height: 500px;
+    width: 100%;
+}
+.liscamplogo img{
+    height: 100%;
+    width: 100%;
+}
+
+.linkwrap{
+  word-wrap: break-word; 
+  font-size: 23px;
+}
+
+
+@media screen and (max-width:768px){
+    .liscamplogo{
+        height: 400px;
+        width: 100%;
+    }
+    .facilitycontent{
+        font-size: 18px;
+    }
+    .linkwrap{
+        word-wrap: break-word; 
+        font-size: 19px;
+      }
+}
