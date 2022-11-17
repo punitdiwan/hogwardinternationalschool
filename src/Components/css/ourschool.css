@@ -23,7 +23,6 @@
 
 
 .ourschooleft{
-background-color:#fafbfc;
 color: rgb(2, 2, 2);
 }
 .mnc{
@@ -97,12 +96,19 @@ color: rgb(14, 13, 13);
                     }
                   
                     .ourschool{
-                        width: 80%;
+                        width: 50%;
                         padding: 10px 10px;
                         word-wrap: normal;
+                        font-size: 12px;
+                    }
+                    .ourschool h1{
+                        font-size: 16px;
                     }
                     .titlecontact222{
                         display: none;
+                    }
+                    .rightbad{
+                                display: none;
                     }
 }
 
@@ -117,16 +123,21 @@ color: rgb(14, 13, 13);
     border: 1px solid rgb(170, 167, 167);
 }
 .nobaa{
-    font-size: 20px;
+    font-size: 12px;
     border: none;
+    display: flex;
+    flex-wrap: nowrap;
     height: 50px;
     width: auto;
     padding: 10px 2.2vmax;
     background-color:#1D4776;
     color: wheat;
-    word-wrap: normal;
     border-radius: 2px;
     margin-top: 0px;
+}
+.nobaa:hover{
+    background-color:#1D4776;
+
 }
 .nobaaa{
     display: flex;
@@ -142,6 +153,7 @@ color: rgb(14, 13, 13);
 .nobaaa1 a{
     text-decoration: none;
    color: black; 
+   word-wrap: normal;
 
 }
 .dropdown-menu a{
@@ -150,3 +162,4 @@ color: rgb(14, 13, 13);
     border: 1px solid rgb(146, 140, 140);
     border-radius: 2px ;
  }
+ 

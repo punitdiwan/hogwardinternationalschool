@@ -15,12 +15,12 @@ const NextNavbar = () => {
   <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
     <ul className="navbar-nav">
       <li className="nav-item active px-3">
-        <NavLink className="nav-link" to="/" style={{color:"#2F3A72"}}>HOME</NavLink>
+        <NavLink className="nav-link" to="/"style={{color:"#2F3A72",fontWeight:"bold"}}>HOME</NavLink>
       </li>
 
 
       <li className="nav-item dropdown px-3">
-        <NavLink className="nav-link dropdown-toggle" style={{color:"#2F3A72"}} href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <NavLink className="nav-link dropdown-toggle" style={{color:"#2F3A72",fontWeight:"bold"}} href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           ABOUT US
         </NavLink>
         <div className="dropdown-menu" style={{backgroundColor:"#2F3A72", width:"auto"}}  aria-labelledby="navbarDropdownMenuLink">
@@ -30,7 +30,7 @@ const NextNavbar = () => {
         </div>
       </li>
       <li className="nav-item dropdown px-3">
-        <NavLink className="nav-link dropdown-toggle" style={{color:"#2F3A72"}} href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <NavLink className="nav-link dropdown-toggle"style={{color:"#2F3A72",fontWeight:"bold"}} href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           ACADEMIC
         </NavLink>
         <div className="dropdown-menu" style={{backgroundColor:"#2F3A72", width:"auto"}} aria-labelledby="navbarDropdownMenuLink">
@@ -39,19 +39,19 @@ const NextNavbar = () => {
         </div>
       </li>
       <li className="nav-item px-3">
-        <NavLink className="nav-link" to="/gallery">GALLERY</NavLink>
+        <NavLink className="nav-link" style={{color:"#2F3A72",fontWeight:"bold"}} to="/gallery">GALLERY</NavLink>
       </li>
        
       <li className="nav-item px-3">
-        <NavLink className="nav-link" to="/facilities">FACILITIES</NavLink>
+        <NavLink className="nav-link" style={{color:"#2F3A72",fontWeight:"bold"}} to="/facilities">FACILITIES</NavLink>
       </li>
       <li className="nav-item px-3">
-        <NavLink className="nav-link" to="/contactus">CONTACT US</NavLink>
+        <NavLink className="nav-link" style={{color:"#2F3A72",fontWeight:"bold"}} to="/contactus">CONTACT US</NavLink>
       </li>
     
-      <li className="nav-item px-3">
+      {/* <li className="nav-item px-3">
         <a className="nav-link btn btn-sm loginbtn py-1 px-2" href="#">Login</a>
-      </li>
+      </li> */}
     </ul> 
   </div>
 </nav>

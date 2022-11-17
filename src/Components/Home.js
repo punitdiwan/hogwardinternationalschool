@@ -11,175 +11,194 @@ const BannerSection = () => {
       <div className="container-fluid p-0">
         <div
           id="carouselExampleIndicators"
-          class="carousel slide"
+          className="carousel slide"
           data-ride="carousel"
         >
-          <ol class="carousel-indicators">
+          <ol className="carousel-indicators">
             <li
               data-target="#carouselExampleIndicators"
               data-slide-to="0"
-              class="active"
+              className="active"
             ></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
           </ol>
-          <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
+          <div className="carousel-inner" role="listbox">
+            <div className="carousel-item active">
               <img
-                class="d-block slideimage"
-                src="./images/slide1.jpg"
+                className="d-block slideimage"
+                src="./images/slide1.jpeg"
                 alt="First slide"
               />
-              <div class="carousel-caption d-none d-md-block">
-                <h1>Noble Public School</h1>
+              <div className="carousel-caption d-none d-md-block">
+                <h1>
+                  <b>Hogwarts International School</b>
+                </h1>
                 <p>
-                  Embracing state-of-the-art technology in our classrooms allows
-                  LIS to facilitate 21st century teaching and learning for its
-                  teachers and students.
+                  <b>
+                    Embracing state-of-the-art technology in our classrooms
+                    allows Hogwarts International School to facilitate 21st
+                    century teaching and learning for its teachers and students.
+                  </b>
                 </p>
               </div>
             </div>
-            <div class="carousel-item">
+            <div className="carousel-item">
               <img
-                class="d-block slideimage"
-                src="./images/slide4.jpg"
+                className="d-block slideimage"
+                src="./images/slide2.jpeg"
                 alt="Second slide"
               />
-              <div class="carousel-caption d-none d-md-block">
-                <h1>Dynamic Educators</h1>
+              <div className="carousel-caption d-none d-md-block">
+                <h1 style={{ color: "black" }}>
+                  <b>Dynamic Educators</b>
+                </h1>
                 <p>
-                  Providing an enriching experience for the academic, social,
-                  and spiritual growth of our students. Each of our educators
-                  believe in cultivating the strengths of all pupils, ensuring
-                  that every student will succeed!
+                  <b style={{ color: "#262624" }}>
+                    Hogwarts International School to facilitate 21st century
+                    teaching and learning for its teachers and students.
+                  </b>
                 </p>
               </div>
             </div>
-            <div class="carousel-item">
+            <div className="carousel-item">
               <img
-                class="d-block slideimage"
-                src="./images/slide5.jpg"
+                className="d-block slideimage"
+                src="./images/slide3.jpeg"
                 alt="Third slide"
               />
-              <div class="carousel-caption d-none d-md-block">
-                <h1>Hands-on learning</h1>
+              <div className="carousel-caption d-none d-md-block">
+                <h1>
+                  <b>Hands-on learning</b>
+                </h1>
                 <p>
-                  Since its inception, NPS has consistently grown year after
-                  year and has gained a reputation of becoming a leading Muslim
-                  educational institute.
+                  <b>
+                    Since its inception, HIS has consistently grown year after
+                    year and has gained a reputation of becoming a leading
+                    educational institute.
+                  </b>
                 </p>
               </div>
             </div>
-            <div class="carousel-item">
+            <div className="carousel-item">
               <img
-                class="d-block slideimage"
-                src="./images/slide6.jpg"
+                className="d-block slideimage"
+                src="./images/slide4.jpeg"
                 alt="Fourt slide"
               />
-              <div class="carousel-caption d-none d-md-block">
-                <h1>Safe and Caring Environment</h1>
+              <div className="carousel-caption d-none d-md-block">
+                <h1>
+                  <b>Safe and Caring Environment</b>
+                </h1>
                 <p>
-                  Feeling safe and cared for is what makes our school community
-                  a complete family!
+                  <b>
+                    Feeling safe and cared for is what makes our school
+                    community a complete family!
+                  </b>
                 </p>
               </div>
             </div>
-            <div class="carousel-item">
+            <div className="carousel-item">
               <img
-                class="d-block slideimage"
-                src="./images/slide7.png"
+                className="d-block slideimage"
+                src="./images/slide5.jpeg"
                 alt="Fifth slide"
               />
-              <div class="carousel-caption d-none d-md-block">
-                <h1 className="">21st Century Education</h1>
+              <div className="carousel-caption d-none d-md-block">
+                <h1>
+                  <b>21st Century Education</b>
+                </h1>
                 <p>
-                  Embracing state-of-the-art technology in our classrooms allows
-                  LIS to facilitate 21st century teaching and learning for its
-                  teachers and students.
+                  <b>
+                    Embracing state-of-the-art technology in our classrooms
+                    allows Hogwarts International School to facilitate 21st
+                    century teaching and learning for its teachers and students.
+                  </b>
                 </p>
               </div>
             </div>
           </div>
           <a
-            class="carousel-control-prev"
+            className="carousel-control-prev"
             href="#carouselExampleIndicators"
             role="button"
             data-slide="prev"
           >
             <span
-              class="carousel-control-prev-icon jj"
+              className="carousel-control-prev-icon jj"
               aria-hidden="true"
             ></span>
-            <span class="sr-only"></span>
+            <span className="sr-only"></span>
           </a>
           <a
-            class="carousel-control-next"
+            className="carousel-control-next"
             href="#carouselExampleIndicators"
             role="button"
             data-slide="next"
           >
             <span
-              class="carousel-control-next-icon jj"
+              className="carousel-control-next-icon jj"
               aria-hidden="true"
             ></span>
-            <span class="sr-only"></span>
+            <span className="sr-only"></span>
           </a>
         </div>
       </div>
 
       {/* Latest New Section---------------------- */}
-
+    
       <div className="container-fluid p-0">
-        <h1 className="heading1 ada">Latest News</h1>
+        <h1 className="heading1 ada">Facilities</h1>
 
         <div className="container-fluid px-5 d-flex latest_card_box">
           <div className="lnewsleft p-3">
             <div className="card_img1">
-              <img src="./images/card1.jpg" alt="" />
+              <img src="./images/g1.jpeg" alt="" />
             </div>
             <div className="title">
-              <h3 className="my-3">Launchbox Orders</h3>
+              <h3 className="my-3 ak">Swimming Pool</h3>
               <p>
-                Hot Lunch orders just got easier! We have now moved our hot
-                lunch ordering system to a strictly online platform managed by
-                Lunchbox Orders. Visit Lunchboxorders.com to
+                A school swimming pool offers an important added value to an
+                educational centre, as it promotes the values of sport among
+                pupils. More information here....
               </p>
             </div>
           </div>
           <div className="lnewsmid p-3">
             <div className="card_img1">
-              <img src="./images/card2.jpg" alt="" />
+              <img src="./images/slide3.jpeg" alt="" />
             </div>
             <div className="title">
-              <h3 className="my-3">LIS Islamic Studies Curriculum</h3>
+              <h3 className="my-3 ak">Skilled Staff</h3>
               <p>
-                Our New Islamic Studies Curriculum has been launched this year!
-                We are proud to offer a curriculum that is inclusive of in-depth
-                knowledge, hands-on activities, critical thinking, and
+                Skilled Staff is here to teach or guide for your bright carrier
+                and and provides Handson in our School.Teachers play a key role
+                in identifying and supporting students...
               </p>
             </div>
           </div>
           <div className="lnewsright p-3">
             <div className="card_img1">
-              <img src="./images/card3.png" alt="" />
+              <img src="./images/g3.jpeg" alt="" />
             </div>
             <div className="title">
-              <h3 className="my-3">We are the Champions</h3>
+              <h3 className="my-3 ak">Sports</h3>
               <p>
-                The Noble Public School won the Healthy Living Champions Gold
-                Award! Remember how hard our school worked together on physical
-                activity, healthy eating, and mental
+                The Hogwarts International School won the Many Award! Remember
+                how hard our school worked together on physical activity,
+                healthy eating, and mental. Specialy Focus on Education and
+                Sports.
               </p>
             </div>
           </div>
         </div>
 
         <div className="latestbutton p-2">
-          <a className="btn btn-lg kop px-5 py-3" href="">
+          <NavLink className="btn btn-lg kop viewbtn" to="/facilities">
             View all New
-          </a>
+          </NavLink>
         </div>
       </div>
 
@@ -189,44 +208,51 @@ const BannerSection = () => {
         <div className="container-fluid d-flex latest_card_box_ad p-0">
           <div className="ladmleft p-5 text-center">
             <div className="title">
-              <h1 className="my-3">
+              <h1 className="my-3 lnns">
                 Our <span style={{ color: "yellow" }}>School</span>
               </h1>
               <p>
-                LIS provides an Islamic learning environment with a commitment
-                of using modern day teaching pedagogy to cultivate an advanced
-                and comprehensive academic program; fully compliant with the
-                Ontario curriculum of studies. We are a K to 8 school with a
-                wide array of resources designed to foster student achievement
-                that will prepare our pupils to pursue higher education and be
-                competitive in their careers.
+                Hogwarts International School provides an Islamic learning
+                environment with a commitment of using modern day teaching
+                pedagogy to cultivate an advanced and comprehensive academic
+                program; fully compliant with the Hogwarts curriculum of
+                studies. We are a K to 8 school with a wide array of resources
+                designed to foster student achievement that will prepare our
+                pupils to pursue higher education and be competitive in their
+                careers.
               </p>
             </div>
             <div className="readbutton p-2">
-              <a className="btn btn-lg adm px-5 py-3" href="">
+              <NavLink className="btn btn-lg bg-warning adm" to="/ourschool">
                 Read More
-              </a>
+              </NavLink>
             </div>
           </div>
 
           <div className="ladmright p-5 text-center">
             <div className="title">
-              <h1 className="my-3">
-                <span style={{ color: "yellow" }}>Lis </span>Admission
+              <h1 className="my-3 lnns">
+                <span style={{ color: "yellow" }}>
+                  Hogwarts International School{" "}
+                </span>
+                Admission
               </h1>
               <p className="mt-3">
-                The Noble Public School gives a fair and equal chance to all
-                applicants who fulfill the admission requirements; dependent
-                upon space availability. To determine admission eligibility for
-                students transferring from another school, official report cards
-                as well as other supporting documents are submitted upon
-                application.
+                The Hogwarts International School gives a fair and equal chance
+                to all applicants who fulfill the admission requirements;
+                dependent upon space availability. To determine admission
+                eligibility for students transferring from another school,
+                official report cards as well as other supporting documents are
+                submitted upon application.
               </p>
             </div>
             <div className="readbutton p-2">
-              <a className="btn btn-lg adm px-5 py-3 mt-5" href="">
+              <NavLink
+                className="btn btn-lg bg-warning adm mt-3"
+                to="/academicprocedure"
+              >
                 Read More
-              </a>
+              </NavLink>
             </div>
           </div>
         </div>
@@ -238,64 +264,65 @@ const BannerSection = () => {
         <div className="container-fluid p-0  d-flex latest_card_box_hls">
           <div className="hlsleft">
             <div className="ccc1_img">
-              <img src="./images/home1.jpg" alt="" />
+              <img src="./images/home1.jpeg" alt="" />
             </div>
             <div className="ccc2_img">
-              <img src="./images/home2.jpg" alt="" />
+              <img src="./images/home2.jpeg" alt="" />
             </div>
           </div>
           <div className="hlsmid text-center p-5">
-            <div className="card_img my-5">
-              <img src="./images/logo.png" alt="" />
+            <div className="card_imgl my-5">
+              <img src="./images/hlogo1.png" alt="" />
             </div>
             <div className="title1 my-5">
-              <div className="hlstbutton">
-                <a
-                  className="btn btn-lg kop px-3 py-2"
-                  href=""
-                  style={{ backgroundColor: "#2E63B1" }}
+              <div className="hlstbutton1">
+                <NavLink
+                  className="btn btn-lg kop kophl text-nowrap"
+                  to="/gallery"
+                  style={{ backgroundColor: "#2E63B1", color: "white" }}
                 >
                   Student Life
-                </a>
-                <a
-                  className="btn btn-lg kop px-3 py-2"
-                  href=""
-                  style={{ backgroundColor: "#21D4776" }}
+                </NavLink>
+                <NavLink
+                  className="btn btn-lg kop  kophl text-nowrap"
+                  to="/academicprocedure"
+                  style={{ backgroundColor: "#1D4776", color: "white" }}
                 >
                   Admission
-                </a>
+                </NavLink>
               </div>
             </div>
 
             <p>
-              At the Noble Public School, we believe in giving our students a
-              voice and instilling in them a passion to be involved with their
-              school community. It is evident that students are at the forefront
-              of understanding the needs of making their school into an
-              environment that promotes a safe and healthy learning environment.
-              For this reason, LIS is committed in providing a well balanced
-              spiritual, academic and social well-being experience for it’s
-              students. Students are encouraged to hone their talents in order
-              to serve and participate in and beyond our community.
+              At the Hogwarts International School, we believe in giving our
+              students a voice and instilling in them a passion to be involved
+              with their school community. It is evident that students are at
+              the forefront of understanding the needs of making their school
+              into an environment that promotes a safe and healthy learning
+              environment. For this reason, Hogwarts International School is
+              committed in providing a well balanced spiritual, academic and
+              social well-being experience for it’s students. Students are
+              encouraged to hone their talents in order to serve and participate
+              in and beyond our community.
             </p>
             <div className="title1">
               <div className="hlstbutton">
-                <a
+                <NavLink
                   className="btn btn-lg hls px-4 py-3"
-                  href=""
-                  style={{ backgroundColor: "#2E63B1" }}
+                  to="/facilities"
+                  style={{ backgroundColor: "#2E63B1", color: "white" }}
                 >
                   Learn More
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>
           <div className="hlsright">
             <div className="ccc2_img">
-              <img src="./images/home3.jpg" alt="" />
+              <img src="./images/home3.jpeg" alt="" />
             </div>
             <div className="ccc1_img">
-              <img src="./images/home4.jpg" alt="" />
+              <img src="./images/home4.jpeg" alt="" />
             </div>
           </div>
         </div>

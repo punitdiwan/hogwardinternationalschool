@@ -5,200 +5,123 @@ import "./css/Facility.css";
 const Facilities = () => {
   return (
     <>
-      <div class="container-fluid">
+      <div className="container-fluid p-0">
         <BannerSection />
 
         <div className="container liscontainer">
-          <div className="liscamplogo m-3">
-            <img src="./images/bgfacility.png" alt="" />
+          <div className="liscamplogo my-3">
+            <img src="./images/facil.jpg" alt="" />
           </div>
           <div className="facilitycontent">
-            <p>
-              Camp Shine is looking forward to having your child(ren) join us
-              for day camp!
-            </p>
-            <p>
-              <b>What We Offer:</b> Camp Shine is a unique one-of-a-kind summer
-              day camp which offers our students a learning experience through
-              exploration and hands-on learning, all while instilling our
-              Islamic values. Additionally, Camp Shine offers its daily Quran
-              program that is tailored to each age group and their capabilities.
-              Some of our previous activities include: Hajj Day, Ice-Cream Day,
-              Splash Pad Day at West Lions Park, Daily Dhuhr Prayers, Friday
-              Prayers, Zumba organized by a professional Instructor, Taekwondo
-              Day organized by a black-belt instructor, Camp Shine Olympics,
-              Arts and Crafts, and many more.
-            </p>
-            <p>
-              To view images of all of these activities listed above, visit our
-              social media pages:
-            </p>
-            <p>Instagram: @liscampshine</p>
-            <p className="mb-5">
-              Facebook page:<a className="linkwrap" href="">https://www.facebook.com/CampshineLIS</a>
-            </p>
 
-            <b>And follow us for more updates!</b>
-            <p className="mt-5">
-              <strong>Health and Safety: </strong>Through safety measures,
-              recommendations and policies provided by the municipality, public
-              health, and our national organization, we have prepared to meet
-              the standards and guidelines in order to open for camp.
-            </p>
-            <b>Camp Overview:</b>
-            <u>
-              <p>Price:</p>
-            </u>
-            <p>Early Bird Pricing: $120/week</p>
-            <p>Regular Pricing: $140/week (after June 27th, 2021)</p>
-            <p className="linkwrap">
-              (Subsidy available, email campshine@londonislamicschool.com for
-              more information)
-            </p>
-            <p>Ages: 4-13</p>
-            <u>
-              <p>Camp Dates (6 weeks long):</p>
-            </u>
-            <p>Start Date: July 12th, 2021</p>
-            <p>End Date: August 20th 2021</p>
-            <p>Note: You may sign up your children for any amount of weeks</p>
-            <u>
-              <p>Program Time:</p>
-            </u>
-            <p>9:30AM – 3:00PM</p>
-            <u>
-              <p>Program Location:</p>
-            </u>
-            <p>151 Oxford St W, London, ON N6H 1S3</p>
-            <u>
-              <p>Contact Information</p>
-            </u>
-            <p>
-              <b>Email:</b> <a className="linkwrap" href="">campshine@londonislamicschool.com</a>
-            </p>
-            <p>Pick-Up/Drop-Off:</p>
-            <u>
-              <p>Screening Questions:</p>
-            </u>
-            <p>
-              To ensure everyone’s safety, all Campers entering either facility
-              must participate in an active pre-screening and campers are
-              required to have their temperature checked by an on-site Camp
-              Shine staff member EVERY DAY. Our questions are relating to having
-              symptoms, previous contact with others who may have COVID-19 or
-              have travelled outside of Canada. If any of the questions are
-              answered yes, the staff will request that you consider visiting
-              your health care provider and to stay at home. All completed
-              questionnaires are kept for our records for contact tracing
-              purposes for the Middlesex-London Health Unit, if individuals need
-              to be contacted due to outbreak.
-            </p>
-            <p>
-              The daily online COVID-19 questionnaire will be sent to parents
-              everyday.
-            </p>
-            <u>
-              <p>Dropping Off Your Child</p>
-            </u>
-            <ul>
-              <li>
-                Please complete the online screening prior to arrival at LIS
-              </li>
-              <li>
-                Doors will open at 9:30 AM , please arrive at this exact time.
-                <ul>
-                  <li>
-                    At drop off, parents and their children will line up 6 ft.
-                    apart in front of one of the two back LIS Gym doors (view
-                    image below). The first door is for campers ages 4-6 and the
-                    other is for ages 7-13. If a parent happens to have multiple
-                    kids enrolled at the camp regardless of the age group,
-                    please line-up at the first (4-6) door
-                  </li>
-                </ul>
-              </li>
-              <li>Masks are required to be worn by all parents/guardians</li>
-              <li>
-                The Counsellor at the door will review your online COVID-19
-                questionnaire
-              </li>
-              <li>
-                A temperature check of the child(ren) will be taken and
-                recorded. If all questions are answered NO and temperature is
-                under 37.8°C, your child may enter and join the program. A staff
-                member will escort your child(ren) to their designated age
-                group. If any question is answered yes and/or temperature is
-                37.8°C or greater and/or displays symptoms, the individual
-                cannot be admitted to the program location.
-              </li>
-            </ul>
-            <u>
-              <p>Picking Up Your Camper:</p>
-            </u>
 
-            <ol type="number">
-              <li>Doors will open at 3:00</li>
-              <ul>
-                <li>
-                  There would be one line designated for all parents and
-                  guardians for the afternoon procedure
-                </li>
-              </ul>
-              <li>
-                Parents and Guardians must provide an ID to be eligible to pick
-                up their child
-              </li>
-              <li>
-                Parents / trusted individuals will be required to show ID. If
-                the name does not happen to match any of the 3 trusted
-                individuals listed by the parent/guardian on the Camper
-                Registration Form, the camper will not be allowed to leave
-              </li>
-              <li>Masks are required to be worn by all parents/guardians</li>
-            </ol>
-            <p>Please Note:</p>
-            <p>
-              No extended care available – Camp drop-off is no earlier than 9:30
-              a.m. Pick up is no later than 3:00 p.m. Please arrive at those
-              specific times.
-            </p>
-            <u>
-              <p>Refund Policy</p>
-            </u>
-            <ul>
-              <li>
-                There is NO REFUND for camp fees for which a request of
-                cancellation is made less than 14 days prior to the start of the
-                camp (No refunds after June 27, 11:55 PM)
-              </li>
-              <li>
-                There are no discounts, credits or refunds for specific camp
-                activities not attended or days missed by the camper
-              </li>
-            </ul>
+            {/* swimming */}
+            <div className="facilitCard">
+              <div className="facilimages">
+                <img src="./images/swim.jpg" alt="" />
+              </div>
+              <div className="facontent">
+                <div className="factitle">Swimming Pool</div>
+                <p>A school swimming pool offers an important added value to an educational centre, as it promotes the values of sport among pupils. More information here.</p>
+              </div>
+            </div>
 
-            <u>
-              <p>Safety Policies</p>
-            </u>
-            <ul>
-              <li>
-                For the safety of the Campers, trespassing into the London
-                Islamic School is prohibited among any parent/adult
-                (adults/parents must head straight into the Camp Shine office
-                without visiting the hallways)
-              </li>
-              <li>
-                Please ensure that your child comes dressed in their Camp Shine
-                shirt daily
-              </li>
-              <li>
-                Zero Tolerance: Any person who inflicts physical or verbal harm
-                onto another person will be expelled from the program
-                immediately and remain suspended until contacted by the program
-                instructor.
-              </li>
-            </ul>
-            <p>We look forward to seeing all of our campers this year!</p>
+
+
+            {/* skilled */}
+
+            <div className="facilitCard">
+              <div className="facilimages">
+                <img src="./images/slide3.jpeg" alt="" />
+              </div>
+              <div className="facontent">
+                <div className="factitle">Skilled Staff</div>
+                <p>Skilled Staff is here to teach or guide for your bright carrier and and provides Handson in our School.Teachers play a key role in identifying and supporting students who are at risk of dropping out, especially students from vulnerable populations, such as girls ...</p>
+              </div>
+            </div>
+
+
+
+
+              {/* sports */}
+            <div className="facilitCard">
+              <div className="facilimages">
+                <img src="./images/g2.jpeg" alt="" />
+              </div>
+              <div className="facontent">
+                <div className="factitle">Sports</div>
+                <p>Extensive and well maintained play fields of football and cricket and courts for volleyball, basketball, kabaddl, throwball and badminton me available to students. Indoor facilities of chess, caroms, table tennis etc. are also available.</p>
+              </div>
+            </div>
+
+
+
+
+              {/* nice Infrastructure */}
+
+            <div className="facilitCard">
+              <div className="facilimages">
+                <img src="./images/slide1.jpeg" alt="" />
+              </div>
+              <div className="facontent">
+                <div className="factitle">Nice Infrastructure</div>
+                <p>The fact is that a good school infrastructure, with renewed spaces, makes it possible for children and youths that live in remote areas to study .A good school infrastructure makes it a good place for the children to study, which is important as the student spends maximum time in school.</p>
+              </div>
+            </div>
+
+
+
+
+              {/* hygiene washroom */}
+            <div className="facilitCard">
+              <div className="facilimages">
+                <img src="./images/wash.jpg" alt="" />
+              </div>
+              <div className="facontent">
+                <div className="factitle">Hygienic Washroom</div>
+                <p>Hygienic washrooms keep us safe. We all care about what's on the outside, and it is natural to do so. But, the next time you're in a washroom ..</p>
+              </div>
+            </div>
+
+
+{/* Good Academic */}
+
+            <div className="facilitCard">
+              <div className="facilimages">
+                <img src="./images/g7.jpeg" alt="" />
+              </div>
+              <div className="facontent">
+                <div className="factitle">Good Academic</div>
+                <p>We provide our student with good encyclopedia to reduce their encumbrance regarding any subject academically or globally. A well equipped laboratories of physics, chemistry, biology and computers for practical learning .We teach students by smart classes for active participation and deep knowledge. A good psychiatrist and counselor for students and Parents is available during school timings.</p>
+              </div>
+            </div>
+
+          {/* transport facility */}
+
+            <div className="facilitCard">
+              <div className="facilimages">
+                <img src="./images/bus1.jpeg" alt="" />
+              </div>
+              <div className="facontent">
+                <div className="factitle">Transport Facility</div>
+                <p>The school provides transport facility to the students through Buses & Magic for transporting the students from different localities to the school and vice-versa. Students can avail the Transport facility by putting up an application. All the buses have trained driver’s and conductor’s. The school follows all the rules and regulations of M.P. Government for the buses.</p>
+              </div>
+            </div>
+
+
+
+          {/* smart education fac */}
+
+            <div className="facilitCard">
+              <div className="facilimages">
+                <img src="./images/smart.jpg" alt="" /> 
+              </div>
+              <div className="facontent">
+                <div className="factitle">Smart Education Technology</div>
+                <p>The learning experience can be enhanced by educational technology for students of all ages and can even assist in the education of students with their special needs and wants. These high-tech tools contribute an important role for students in education. In fact, technology is an entryway to education and professional skills.</p>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

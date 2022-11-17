@@ -40,7 +40,7 @@ const LatestNews = () => {
             <div className="title">
               <h3 className="my-3">We are the Champions</h3>
               <p>
-                The Noble Public School won the Healthy Living Champions Gold
+                The Hogwarts International School won the Healthy Living Champions Gold
                 Award! Remember how hard our school worked together on physical
                 activity, healthy eating, and mental
               </p>

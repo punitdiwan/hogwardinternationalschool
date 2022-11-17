@@ -4,17 +4,17 @@ import "./css/Gallery.css"
 const Gallery = () => {
   return (
     <>
-    <div class="container-fluid">
+    <div className="container-fluid">
         <div className="first">
             <div className="one">
-                <img src="./images/g1.jpg" alt="" />
+                <img src="./images/g1.jpeg" alt="" />
             </div>
             <div className="one">
-                <img src="./images/g2.jpg" alt="" />
+                <img src="./images/g2.jpeg" alt="" />
             </div><div className="one">
-                <img src="./images/g3.jpg" alt="" />
+                <img src="./images/army.jpg" alt="" />
             </div><div className="one">
-                <img src="./images/g4.jpg" alt="" />
+                <img src="./images/g4.jpeg" alt="" />
             </div>
         </div>
         <div className="first">
@@ -22,11 +22,11 @@ const Gallery = () => {
                 <img src="./images/g5.jpg" alt="" />
             </div>
             <div className="one">
-                <img src="./images/g6.jpg" alt="" />
+                <img src="./images/g6.jpeg" alt="" />
             </div><div className="one">
-                <img src="./images/g7.jpg" alt="" />
+                <img src="./images/g7.jpeg" alt="" />
             </div><div className="one">
-                <img src="./images/g8.jpg" alt="" />
+                <img src="./images/g8.jpeg" alt="" />
             </div>
         </div>
     </div>

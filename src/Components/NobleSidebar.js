@@ -1,4 +1,6 @@
 import React from "react";
+import {NavLink} from "react-router-dom"
+
 
 const NobleSidebar = () => {
   return (
@@ -7,14 +9,24 @@ const NobleSidebar = () => {
         <div className="searchbox">
           <input type="search" style={{ border: "1px solid #D1D5DB" }} />
           <button className="btn btn-lg">
-            <i class="ri-search-line"></i>
+            <i className="ri-search-line"></i>
           </button>
         </div>
-
-        <button className="nobaa mt-5">NOBLE PUBLIC SCHOOL</button>
+        <div
+            className="btn btn-light nobaa text-center nobaaa1 mt-4 "
+            type="button"
+            style={{
+              border: "1px solid #797A7B",
+              color: "white",
+              borderRadius: "2px",
+            }}
+          >
+            <a className="text-center hogbtn" style={{color:"white",}}>HOGWARTS INTERNATIONAL SCHOOL</a>
+          </div>
+        {/* <button className="nobaa mt-5">Hogwarts International School</button> */}
         <div className="nobaa nobaaa">
           <div
-            class="btn btn-light nobaaa1 "
+            className="btn btn-light nobaaa1 "
             type="button"
             style={{
               border: "1px solid #797A7B",
@@ -22,11 +34,11 @@ const NobleSidebar = () => {
               borderRadius: "2px",
             }}
           >
-            <a href="">Home</a>
+            <NavLink to="/">HOME</NavLink>
           </div>
 
           <div
-            class="btn btn-light nobaaa1 dropdown-toggle"
+            className="btn btn-light nobaaa1 dropdown-toggle"
             type="button"
             style={{
               border: "1px solid #797A7B",
@@ -40,25 +52,25 @@ const NobleSidebar = () => {
                   aria-expanded="false"
           >
           
-            <a href="">About Us</a>
+            <NavLink to="">ABOUT US</NavLink>
           </div>
           <div
-                  class="dropdown-menu p-0"
+                  className="dropdown-menu p-0"
                   aria-labelledby="dropdownMenuButton"
                 >
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" to="/ourschool">
                     OUR SCHOOL
                   </a>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" to="/boarddirector">
                     BOARD OF DIRECTOR
                   </a>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" to="/principal">
                     PRINCIPAL
                   </a>
                 </div>
 
           <div
-            class="btn btn-light nobaaa1 "
+            className="btn btn-light nobaaa1 "
             type="button"
             style={{
               border: "1px solid #797A7B",
@@ -66,10 +78,10 @@ const NobleSidebar = () => {
               borderRadius: "2px",
             }}
           >
-            <a href="">ACADEMIC</a>
+            <NavLink to="/academicprocedure">ACADEMIC</NavLink>
           </div>
           <div
-            class="btn btn-light nobaaa1 "
+            className="btn btn-light nobaaa1 "
             type="button"
             style={{
               border: "1px solid #797A7B",
@@ -77,10 +89,10 @@ const NobleSidebar = () => {
               borderRadius: "2px",
             }}
           >
-            <a href="">GALLERY</a>
+            <NavLink to="/gallery">GALLERY</NavLink>
           </div>
           <div
-            class="btn btn-light nobaaa1 "
+            className="btn btn-light nobaaa1 "
             type="button"
             style={{
               border: "1px solid #797A7B",
@@ -88,12 +100,12 @@ const NobleSidebar = () => {
               borderRadius: "2px",
             }}
           >
-            <a href="">CONTACT US</a>
+            <NavLink to="/contactus">CONTACT US</NavLink>
           </div>
 
 
           <div
-            class="btn btn-light nobaa text-center nobaaa1 mt-4 "
+            className="btn btn-light nobaa text-center hogbtn nobaaa1 mt-4 "
             type="button"
             style={{
               border: "1px solid #797A7B",
@@ -104,7 +116,7 @@ const NobleSidebar = () => {
             <a>Did You Know?</a>
           </div>
           <div
-                  class="btn btn-sm p-3 didyou"
+                  className="btn btn-sm p-3 didyou"
                   type="button"
                   style={{
                     border: "1px solid #797A7B",
@@ -112,8 +124,8 @@ const NobleSidebar = () => {
                     borderRadius: "2px",
                   }}
                 >
-                  The Nobile Public School was the first educational institute
-                  in London, ON to offer Islamic Education
+                  The Hogwarts International School was the first educational institute
+                  in Sehore,M.P. ON to offer Hogwarts Education
                 </div>
 
         </div>
@@ -139,7 +151,7 @@ const NobleSidebar = () => {
               <div className="navser mt-3">
                 <a className="btn btn-lg px-5 noblebtn"></a>
                 <a
-                  class="btn btn-light"
+                  className="btn btn-light"
                   type="button"
                   style={{
                     border: "1px solid #797A7B",
@@ -151,7 +163,7 @@ const NobleSidebar = () => {
                 </a>
 
                 <a
-                  class="btn btn-light dropdown-toggle"
+                  className="btn btn-light dropdown-toggle"
                   style={{
                     border: "1px solid #797A7B",
                     color: "#797A7B",
@@ -166,21 +178,21 @@ const NobleSidebar = () => {
                   ABOUT US
                 </a>
                 <div
-                  class="dropdown-menu p-0"
+                  className="dropdown-menu p-0"
                   aria-labelledby="dropdownMenuButton"
                 >
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                     OUR SCHOOL
                   </a>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                     BOARD OF DIRECTOR
                   </a>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                     PRINCIPAL
                   </a>
                 </div>
                 <a
-                  class="btn btn-light"
+                  className="btn btn-light"
                   style={{
                     border: "1px solid #797A7B",
                     color: "#797A7B",
@@ -192,7 +204,7 @@ const NobleSidebar = () => {
                 </a>
 
                 <a
-                  class="btn btn-light"
+                  className="btn btn-light"
                   type="button"
                   style={{
                     border: "1px solid #797A7B",
@@ -203,7 +215,7 @@ const NobleSidebar = () => {
                   GALLERY
                 </a>
                 <a
-                  class="btn btn-light"
+                  className="btn btn-light"
                   type="button"
                   style={{
                     border: "1px solid #797A7B",
@@ -219,7 +231,7 @@ const NobleSidebar = () => {
 
                 <a className="btn btn-lg px-5 noblebtn mt-5">DID YOU KNOW?</a>
                 <div
-                  class="btn btn-sm p-3 didyou"
+                  className="btn btn-sm p-3 didyou"
                   type="button"
                   style={{
                     border: "1px solid #797A7B",

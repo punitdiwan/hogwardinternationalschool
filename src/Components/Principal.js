@@ -1,10 +1,10 @@
-import React from 'react'
-import NobleSidebar from './NobleSidebar';
+import React from "react";
+import NobleSidebar from "./NobleSidebar";
 
 const Principal = () => {
   return (
     <>
-    <div className="container-fluid p-0">
+      <div className="container-fluid p-0">
         <div
           id="carouselExampleIndicators"
           className="carousel slide"
@@ -33,44 +33,92 @@ const Principal = () => {
         </div>
 
         <div className="container-fluid latest_card_box_ad p-5">
-          <div className="ourschoolboardeft px-5 text-left">
+          <div className="ourschoolboardeft px-0 text-left">
+            <div className="princd">
+              <div className="photos">
+                <img src="./images/princ.jpeg" alt="" />
+                <div className="phname">
+                  <b>Principal</b> - Mrs. Prabha Devra
+                </div>
+              </div>
+
+              <div className="director_mess">
+                <h5>
+                  <b>Principal Message -</b>
+                </h5>
+                <p>
+                  Warm Greeting from Hogwarts International school family, we firmly believed
+                  that school education lays the foundation for the future of
+                  the students and ensure a stable. According to the words of Swami Vivekanand "Arise, awake
+                  and stop not till the goal is reached" echo in my mind. The
+                  School activities are planned and prepared meticulously,
+                  Our mission is to produce educated smart and confident
+                  citizens of India.
+                </p>
+              </div>
+            </div>
             <p>
-              <b>
-              Dear Parents, Students, and Visitors:
-              </b>
+              <b>Dear Parents, Students, and Visitors:</b>
             </p>
             <p>
-                <i>Assalamu Alaikum Warahmatullahi Wa Barakatuh.</i>
+              <i>Hogwarts International School</i>
             </p>
-            <p>Welcome to the Noble Public School. As we embark into a new journey of growth and learning, we are more than certain that with the help of Allah (SWT) and your continuous support, we will be able to take our school to the next level. At our end, we shall continue working with you for the best interests of our beloved students and our community at large.</p>
-            <p>LIS provides environment with a commitment of using modern day teaching pedagogy to cultivate an advanced and comprehensive academic program; fully compliant with the Ontario curriculum of studies. We are a K to 8 school with a wide array of resources designed to foster student achievement that will prepare our pupils to pursue higher education and be competitive in their careers. It is our aim to empower our students by cultivating their interests and honing their academic skills as strong Indian-Muslim citizens in India.</p>
-            <p>As we are starting a new phase of our long journey towards knowledge and prosperity, we wish to take this opportunity to thank the Indian Muslim Mosque and the NPS School Board for their continuous help and support. We wish also to thank our committed and dedicated staff, parent-teacher association, and volunteers for their tireless efforts and ongoing dedication to the betterment of our school.</p>
-            pOur staff and administration are committed to helping each and every student work to their full potential. Our school strives in placing a high emphasis on balanced literacy, numeracy, inquiry-based learning, and outdoor education. As well as attending to the needs of students who are experiencing difficulties in certain subject areas, and for students who are achieving above grade levels.
-            <p>The school is committed to helping students become responsible for their own actions. Our code of conduct is meant to help them reflect upon their own actions and draw conclusions and lessons for the future. A variety of progressive discipline strategies are in place and will be applicable as required.</p>
-            <p>Nothing can be more effective in motivating the students and sustaining success in the school than celebrating the students’ accomplishments. Celebrating success in the school system regularly breeds more success. It invites every student, teacher, and parent to join the team to celebrate improvements in academics, character, and leadership.</p>
-            <p>Nothing can be more effective in motivating the students and sustaining success in the school than celebrating the students’ accomplishments. Celebrating success in the school system regularly breeds more success. It invites every student, teacher, and parent to join the team to celebrate improvements in academics, character, and leadership.</p>
-            <p>As the Noble Public School principal, I am more than willing to do all it takes to make our school an outstanding institution, where our students are nurtured through mind, body, and soul. Such a mission will not be possible to accomplish without the full support and cooperation of our parent body and community at large. Hence, should you have any suggestions or constructive feedback, do not hesitate to contact me by email or phone.</p>
+            <p>
+              Welcome to the Hogwarts International School. As we embark into a
+              new journey of growth and learning, we will
+              be able to take our school to the next level. At our end, we shall
+              continue working with you for the best interests of our beloved
+              students and our community at large.
+            </p>
+             
+            <p>
+              Nothing can be more effective in motivating the students and
+              sustaining success in the school than celebrating the students’
+              accomplishments. Celebrating success in the school system
+              regularly breeds more success. It invites every student, teacher,
+              and parent to join the team to celebrate improvements in
+              academics, character, and leadership.
+            </p>
+            {/* <p>
+              Nothing can be more effective in motivating the students and
+              sustaining success in the school than celebrating the students’
+              accomplishments. Celebrating success in the school system
+              regularly breeds more success. It invites every student, teacher,
+              and parent to join the team to celebrate improvements in
+              academics, character, and leadership.
+            </p> */}
+            <p>
+              As the Hogwarts International School principal, I am more than
+              willing to do all it takes to make our school an outstanding
+              institution, where our students are nurtured through mind, body,
+              and soul. Such a mission will not be possible to accomplish
+              without the full support and cooperation of our parent body and
+              community at large. Hence, should you have any suggestions or
+              constructive feedback, do not hesitate to contact me by email or
+              phone.
+            </p>
             <p>We look forward to serving you and your children.</p>
-            <p><b>Yours in Learning,</b></p>
-            <p><b>A. Choudhary, B.A, B.Ed, M.Ed, Ed.D (Candidate) Principal -</b></p>
-            <p>Noble Public School</p>
-            <p>11,Rambha Nagar, Dig Bunglow, Berasia Road, Bhopal - 462001, Near Masjid
-                <p>School Phone: +91 9329993336</p>
-                <p>Fax: +91 7000742886</p>
-
-</p>
+            <p>
+            </p>
+            <p>
+              <b>Mrs Prabha Devra, Principal -</b>
+            </p>
+            {/* <p>Hogwarts International School</p> */}
+            <p>
+              Sekdakhedi fourlane road , Sehore, Madhya Pradesh
+              466001, India
+              <p>School Phone: +91 8770553362 , +91 7772888558</p>
+              <p>Fax: +91 7772888558</p>
+            </p>
           </div>
 
-        
           <div className="ourschoolright p-4">
-          <NobleSidebar/>
+            <NobleSidebar />
           </div>
-          
         </div>
       </div>
-    
     </>
-  )
-}
+  );
+};
 
-export default Principal
+export default Principal;

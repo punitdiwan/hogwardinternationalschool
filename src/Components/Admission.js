@@ -14,7 +14,7 @@ const Admission = () => {
               </p>
             </div>
             <div className="readbutton p-2">
-            <a className="btn btn-lg adm px-5 py-3" href="">Read More</a>
+            <a className="btn btn-lg adm" href="">Read More</a>
         </div>
           </div>
           
@@ -22,11 +22,11 @@ const Admission = () => {
             <div className="title">
               <h1 className="my-3">LIS Admissions</h1>
               <p className='mt-3'>
-              The Noble Public School gives a fair and equal chance to all applicants who fulfill the admission requirements; dependent upon space availability. To determine admission eligibility for students transferring from another school, official report cards as well as other supporting documents are submitted upon application.
+              The Hogwarts International School gives a fair and equal chance to all applicants who fulfill the admission requirements; dependent upon space availability. To determine admission eligibility for students transferring from another school, official report cards as well as other supporting documents are submitted upon application.
               </p>
             </div>
             <div className="readbutton p-2">
-            <a className="btn btn-lg adm px-5 py-3 mt-5" href="">Read More</a>
+            <a className="btn btn-lg adm mt-5" href="">Read More</a>
         </div>
           </div>
         </div>

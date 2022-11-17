@@ -9,13 +9,13 @@ const AcademicPRocedure = () => {
 
       <div className="container-fluid p-0">
         <div className="container-fluid d-flex latest_card_box_add p-0">
-          <div className="admssionleft p-5 text-left">
+          <div className="admssionleft py-5 px-3 text-left">
             <div className="card_img11">
-              <img src="./images/carditem.png" alt="" />
+              <img src="./images/ed1.png" alt="" />
             </div>
             <div className="title">
               <p>
-                The Junior Champions LIS Preschool provides children with a
+        Hogwarts Public school provides children with a
                 play-based or emergent curriculum, which is child-centred and
                 teacher framed.Our educators develop large and small group
                 instruction as well as learning centres, based on observed
@@ -27,30 +27,44 @@ const AcademicPRocedure = () => {
                 caring and nurturing environment that considers children’s
                 social, emotional, cognitive, physical and spiritual well being.
               </p>
-              <h5>Age Requirement:</h5>
+              <h5><b>Age Requirement:</b></h5> 
               <p>
                 Parents interested in our preschool must ensure that their child
                 meets the age requirements; children must be between the ages of
                 2.5 to 6 years old to be eligible to apply.Parents are asked for
                 their child’s proof of age at time of application.
               </p>
+              <h5><b>Registration:</b></h5>
               <p>
-                <b>Program Hours:</b>(excluding holidays and school breaks)
+              Parents are required to submit a non-refundable application form to the school.
+
+Registered parents are invited to visit the campus to understand the Goenkan culture & ethos.
+
+The mere act of Registration will not constitute a guaranteed admission, which is subject to interaction with Principal, Aptitude test (grade V & above) and the school rule book
               </p>
               <p>
-                <b>Full time:</b>Mondays to Fridays from 8: 15 a.m.until 4: 15
-                p.m.
+                <b>Full time:</b>Monday to Saturday from 8: 30 a.m.to 2: 30 p.m.
+              
               </p>
-              <p>
-                <b>Part Time:</b>Mondays and Wednesdays plus alternating Fridays
-                from 8: 15 a.m.to 4: 15 p.m. OR Tuesdays and Thursdays plus
-                alternating Fridays from 8: 15 a.m.to 4: 15 p.m.
-              </p>
-              <p>
-                Part time spots may be available if there is sufficient
-                demand.Priority will be given to full time applicants.
-              </p>
-              <h5>Rest/Sleep time</h5>
+              
+              <h5><b>Submission of Documents:</b></h5>
+              <p>Following Registration, duly filled Application form needs to be submitted along with the documents listed below within 5 days of the registration date.</p>
+             <ul type="square" style={{color:"black"}}>
+                  <li>Attested copy of Birth certificate</li>
+                  <li>TC from previous school (class II onwards)</li>
+                  <li>6 passport size photos of the child and 1 each of the parents</li>
+                  <li>Vaccination card</li>
+                  <li>Blood group card or report</li>
+                  <li>Copy of Aadhar card</li>
+                  <li>Copy of Samagra ID</li>
+                  <li>Cheque Photocopy</li>
+                 
+             </ul>
+              
+
+
+
+              
               <p>
                 The Ministry of Education requires that there be a scheduled
                 rest period each day for preschoolers.Children will have the
@@ -63,8 +77,8 @@ const AcademicPRocedure = () => {
                 The Ministry of Education requires that hildren spend at least
                 two (2) hours per day outdoors, weather permitting.
               </p>
-              <h5>Program Fees:</h5>
-              <table class="table table-bordered">
+              {/* <h5>Program Fees:</h5>
+              <table className="table table-bordered tabld">
                 <thead style={{ backgroundColor: "#1D4776", color: "white" }}>
                   <tr>
                     <th scope="col">Type</th>
@@ -87,13 +101,13 @@ const AcademicPRocedure = () => {
                     <td>September to August</td>
                   </tr>
                 </tbody>
-              </table>
+              </table> */}
 
-              <h5>Registration Fee</h5>
+              {/* <h5>Registration Fee</h5>
               <p>
                 A non-refundable registration fee of $100 must be paid at the
-                time of registration.This fee is for families new to LIS.
-              </p>
+                time of registration.This fee is for families new to Hogwarts Public school.
+              </p> */}
               <h6>Junior Champions Preschool Handbook</h6>
               <p>
                 Each year, the Junior Champions Preschool publishes a parent
@@ -101,23 +115,23 @@ const AcademicPRocedure = () => {
                 highlights all details of our program and can be accessed by
                 clicking below:
               </p>
-              <h5 style={{ color: "#3888BF" }}>
+              {/* <h5 style={{ color: "#3888BF" }}>
                 Junior Champions Parent Handbook 2020-21
-              </h5>
+              </h5> */}
               <h5>
-                For more information of our preschool program, please email
-                Junior.Champions www.npsbhopal@gmail.com
+                Email to :   &nbsp;
+                <a href="mailto:Hogwartsinternational339@gmail.com">www.Hogwartsinternational339@gmail.com</a>
               </h5>
             </div>
           </div>
 
-          <div className="accdright p-5">
+          <div className="accdright py-2">
             <div className="card-image1">
-              <img src="./images/g1.jpg" alt="..." class="img-thumbnail" />
-              <img src="./images/g2.jpg" alt="..." class="img-thumbnail" />
-              <img src="./images/g3.jpg" alt="..." class="img-thumbnail" />
-              <img src="./images/g4.jpg" alt="..." class="img-thumbnail" />
-              <img src="./images/g5.jpg" alt="..." class="img-thumbnail" />
+              <img src="./images/g1.jpeg" alt="..." className="img-thumbnail" />
+              <img src="./images/c1.jpg" alt="..." className="img-thumbnail" />
+              <img src="./images/c2.jpg" alt="..." className="img-thumbnail" />
+              <img src="./images/c3.jpg" alt="..." className="img-thumbnail" />
+              <img src="./images/c4.jpeg" alt="..." className="img-thumbnail" />
             </div>
           </div>
         </div>

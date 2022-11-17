@@ -11,59 +11,59 @@ const BannerSection = () => {
   return (
     <>
     <div className="container-fluid p-0">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+  <ol className="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
 
   </ol>
-  <div class="carousel-inner" role="listbox">
-    <div class="carousel-item active">
-      <img class="d-block slideimage" src="./images/slide1.jpg" alt="First slide"/>
-      <div class="carousel-caption d-none d-md-block">
-    <h1>Noble Public School</h1>
-    <p>Embracing state-of-the-art technology in our classrooms allows LIS to facilitate 21st century teaching and learning for its teachers and students.</p>
+  <div className="carousel-inner" role="listbox">
+    <div className="carousel-item active">
+      <img className="d-block slideimage" src="./images/slide1.jpeg" alt="First slide"/>
+      <div className="carousel-caption d-none d-md-block">
+    <h1><b>Hogwarts International School</b></h1>
+    <p><b>HIS to facilitate 21st century teaching and learning for its teachers and students.</b></p>
   </div>
     </div>
-    <div class="carousel-item">
-      <img class="d-block slideimage" src="./images/slide4.jpg" alt="Second slide"/>
-      <div class="carousel-caption d-none d-md-block">
-    <h1>Dynamic Educators</h1>
-    <p>Providing an enriching experience for the academic, social, and spiritual growth of our students. Each of our educators believe in cultivating the strengths of all pupils, ensuring that every student will succeed!</p>
+    <div className="carousel-item">
+      <img className="d-block slideimage" src="./images/slide2.jpeg" alt="Second slide"/>
+      <div className="carousel-caption d-none d-md-block">
+    <h1 style={{color:"#262624"}}><b>Dynamic Educators</b></h1>
+    <p><b>Since its inception, HIS has consistently grown year after year</b></p>
   </div>
     </div>
-    <div class="carousel-item">
-      <img class="d-block slideimage" src="./images/slide5.jpg" alt="Third slide"/>
-      <div class="carousel-caption d-none d-md-block">
-    <h1>Hands-on learning</h1>
-    <p>Since its inception, NPS has consistently grown year after year and has gained a reputation of becoming a leading Muslim educational institute.</p>
+    <div className="carousel-item">
+      <img className="d-block slideimage" src="./images/slide3.jpeg" alt="Third slide"/>
+      <div className="carousel-caption d-none d-md-block">
+    <h1><b>Hands-on learning</b></h1>
+    <p><b>Since its inception, HIS has consistently grown year after year and has gained a reputation of becoming a leading Muslim educational institute.</b></p>
   </div>
     </div>
-    <div class="carousel-item">
-      <img class="d-block slideimage" src="./images/slide6.jpg" alt="Fourt slide"/>
-      <div class="carousel-caption d-none d-md-block">
-    <h1>Safe and Caring Environment</h1>
-    <p>Feeling safe and cared for is what makes our school community a complete family!</p>
+    <div className="carousel-item">
+      <img className="d-block slideimage" src="./images/slide4.jpeg" alt="Fourt slide"/>
+      <div className="carousel-caption d-none d-md-block">
+    <h1><b>Safe and Caring Environment</b></h1>
+    <p><b>Feeling safe and cared for is what makes our school community a complete family!</b></p>
   </div>
     </div>
-    <div class="carousel-item">
-      <img class="d-block slideimage" src="./images/slide7.png" alt="Fifth slide"/>
-      <div class="carousel-caption d-none d-md-block">
-    <h1 className=''>21st Century Education</h1>
-    <p>Embracing state-of-the-art technology in our classrooms allows LIS to facilitate 21st century teaching and learning for its teachers and students.</p>
+    <div className="carousel-item">
+      <img className="d-block slideimage" src="./images/slide5.jpeg" alt="Fifth slide"/>
+      <div className="carousel-caption d-none d-md-block">
+    <h1><b>21st Century Education</b></h1>
+    <p><b>Embracing state-of-the-art technology in our classrooms allows HIS to facilitate 21st century teaching and learning for its teachers and students.</b></p>
   </div>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon jj" aria-hidden="true"></span>
-    <span class="sr-only"></span>
+  <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span className="carousel-control-prev-icon jj" aria-hidden="true"></span>
+    <span className="sr-only"></span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon jj" aria-hidden="true"></span>
-    <span class="sr-only"></span>
+  <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span className="carousel-control-next-icon jj" aria-hidden="true"></span>
+    <span className="sr-only"></span>
   </a>
 </div>
 

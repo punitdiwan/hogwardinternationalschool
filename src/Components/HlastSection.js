@@ -30,7 +30,7 @@ const HlastSection = () => {
             </div>
 
               <p>
-              At the Noble Public School, we believe in giving our students a voice and instilling in them a passion to be involved with their school community. It is evident that students are at the forefront of understanding the needs of making their school into an environment that promotes a safe and healthy learning environment. For this reason, LIS is committed in providing a well balanced spiritual, academic and social well-being experience for it’s students. Students are encouraged to hone their talents in order to serve and participate in and beyond our community.
+              At the Hogwarts International School, we believe in giving our students a voice and instilling in them a passion to be involved with their school community. It is evident that students are at the forefront of understanding the needs of making their school into an environment that promotes a safe and healthy learning environment. For this reason, LIS is committed in providing a well balanced spiritual, academic and social well-being experience for it’s students. Students are encouraged to hone their talents in order to serve and participate in and beyond our community.
               </p>
             <div className="title1">
 

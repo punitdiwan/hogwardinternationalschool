@@ -10,6 +10,7 @@
     padding: 10px 10vmax;
     color: #1D4776;
     font-weight: bold;
+    text-align: center;
 }
 
 .lnewsleft{
@@ -61,6 +62,9 @@ font-size: 1.2vmax;
     border-radius:0px;
     font-size: 1.2vmax;
 }
+.viewbtn{
+    padding:10px 25px
+}
 
 
 @media screen and (max-width:768px){
@@ -92,6 +96,24 @@ font-size: 1.2vmax;
                 }
                 .heading1{
                     font-size: 30px;
+                    text-align: center;
                 }
+                .ak{
+                    text-align: center;
+
+                }
+
                 
 }
+
+@media screen and (max-width:500px){
+
+    .viewbtn{
+        padding:8px 15px;
+        font-size: 13px;
+
+    }
+}
+
+
+

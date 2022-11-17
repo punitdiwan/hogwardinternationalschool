@@ -36,17 +36,17 @@ width: 22%;
 font-size: 1.2vmax;
 }
 
-.card_img{
-height: 150px;
+.card_imgl{
 width: 100%;
 display: flex;
 align-items: center;
 justify-content: center;
 /* background-color: red; */
 }
-.card_img img{
-height: 100%;
-width: 15%;
+.card_imgl img{
+
+height:160px;
+width: 160px;
 }
 
 .card_img{
@@ -55,9 +55,8 @@ width: 15%;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: red; */
     }
-   
+    
 
 .title1{
     display: flex;
@@ -67,13 +66,25 @@ display: flex;
 align-items: center;
 justify-content: space-around;
 }
-.hlstbutton{
+.hlstbutton1{
 width: 50%;
 display: flex;
 align-items: center;
 justify-content: space-around;
 }
+.kophl{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px 20px;
+    background-color: #1D4776;
 
+}
+.kophl:hover{
+    padding: 10px 20px;
+    background-color: #1D4776;
+    color: white;
+
+}
 .hls{
 background-color: #1D4776;
 color: white;
@@ -120,15 +131,21 @@ font-size: 1.2vmax;
                 width: 100%;
                 
                 }
-                .hlstbutton{
+                .hlstbutton1{
                     width: 80%;
                     display: flex;
                     align-items: center;
-                    justify-content: space-around;
+                    /* justify-content: space-around;    */
                     }
-                    .card_img img{
-                        height: 100%;
-                        width: 30%;
+                    .hlstbutton1 a{
+                        margin: 0px 10px;
+
+                    }
+                    
+                    .card_imgl img{
+                       
+                        height:110px;
+width: 110px;
                         }
                         .hls{
                             background-color: #1D4776;
@@ -139,4 +156,68 @@ font-size: 1.2vmax;
                             .hlsmid  p{
                                 font-size: 15px;
                                 }
+                                .ccc1_img{
+
+                                    height: 450px;
+                                   
+                                    
+                                }
+                               
+                                .ccc2_img{
+                                
+                                    height: 280px;
+                                    width: 100%;
+                                  
+                                
+                                }
+                               
+                               
+}
+
+
+
+@media screen and (max-width:500px){
+  
+               
+                   
+                    .card_imgl img{
+                       
+                        height:100px;
+width: 100px;
+                        }
+                        .kophl{
+                            padding: 10px 18px;
+                            font-size: 13px;
+                        }
+                        
+                       
+}
+
+@media screen and (max-width:400px){
+  
+               
+   
+    .card_imgl img{
+        height:90px;
+        width: 90px;
+        }
+        .kophl{
+            padding: 8px 15px;
+            font-size: 12px;
+        }
+        .ccc1_img{
+
+            height: 440px;
+           
+            
+        }
+       
+        .ccc2_img{
+        
+            height: 260px;
+            width: 100%;
+          
+        
+        }
+       
 }

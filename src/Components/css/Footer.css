@@ -14,17 +14,34 @@
 }
 .footerleft .logo {
     height: auto;
- width: 8vw;
+ width: 9vw;
 }
 .footerleft .logo img{
  height: 100%;
  width: 100%;
  /* background-color: red; */
 }
+
+
+
 .footermid{
     color: white;
-    text-align: center;
+    width: 33%;
+   
 }
+.footerleft{
+ width: 33%;
+ display: flex;
+ align-items: center;
+justify-content: center;
+}
+
+.fbrightt{
+    width: 33%;
+
+
+}
+
 
 .socialmedia1{
     width: 5vw; 
@@ -37,13 +54,13 @@
     font-size: 2vmax;
 }
 
-.navright{
+/* .navright{
     width: 17vw;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
+} */
 .seacrch{
     display: flex;
     
@@ -64,14 +81,19 @@
     color: rgb(31, 29, 29);
 }
 .copyright{
-    width: 23vw;
+    width: 100%;
     /* background-color: red; */
 
+}
+.copyright p{
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
 }
 #copyr{
     color: white;
     font-size: 1.3vmax;
-    /* background-color: red; */
     
 }
 
@@ -102,15 +124,22 @@
     padding: 2vmax;
 
 }
-.fbottom {
-    padding:0 2vmax;
+.fbtm{
+    background-color: #1D4776;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 15px;
 
 }
-.fbottom p{
+.fbtm p{
     margin: 0;
     text-align: left;
     font-size: 1.3vmax;
 }
+
 
 @media screen and (max-width:768px){
     .footermain{
@@ -122,19 +151,41 @@
         font-size: 15px;
     
     }
-    .fbottom p{
+    .fbtm p{
         font-size: 15px;
     }
     .footerleft .logo {
      width: 15vw;
     }
     .footerleft{
-        margin-top: 20px;
+        margin-top: 0px;
+        text-align: center;
+        width: 100%;
+
        }
+       .footermid{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        /* background-color: red; */
+
+    }
+    
+    
+    .fbrightt{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 18px;
+    
+    }
 
 
        .fbright{
-        margin-top: 20px;
         padding: 2vmax;
     
     }
@@ -148,14 +199,17 @@
         font-size: 15px;
     }
     .copyright{
-        width: 45vw;
-        /* background-color: red; */
+        width:100%;
+        
     
     }
     #copyr{
         color: white;
         font-size: 15px;
         /* background-color: red; */
+
+  justify-content: center;
+
         
     }
     .socialmedia1{
@@ -172,5 +226,54 @@
     
     
     }
+    
+}
+@media screen and (max-width:700px){
+    .fbtm p{
+        font-size: 14px;
+    }
+   
+
+    .copyright{
+        width:100%;
+    
+    }
+}
+
+
+
+@media screen and (max-width:550px){
+   
+   
+    .fbtm p{
+        font-size: 13px;
+    }
+   
+  
+    .copyright{
+        width: 100%;
+    
+    }
+    
+}
+
+
+@media screen and (max-width:400px){
+   
+
+    .fbtm p{
+        font-size: 12px;
+    }
+   
+    
+}
+
+@media screen and (max-width:380px){
+   
+
+    .fbtm p{
+        font-size: 10px;
+    }
+   
     
 }
