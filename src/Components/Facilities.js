@@ -9,16 +9,14 @@ const Facilities = () => {
         <BannerSection />
 
         <div className="container liscontainer">
-          <div className="liscamplogo my-3">
-            <img src="./images/facil.jpg" alt="" />
-          </div>
+          
           <div className="facilitycontent">
 
 
             {/* swimming */}
             <div className="facilitCard">
               <div className="facilimages">
-                <img src="./images/swim.jpg" alt="" />
+                <img src="./images1/swim.webp" alt="" />
               </div>
               <div className="facontent">
                 <div className="factitle">Swimming Pool</div>
@@ -32,7 +30,7 @@ const Facilities = () => {
 
             <div className="facilitCard">
               <div className="facilimages">
-                <img src="./images/slide3.jpeg" alt="" />
+                <img src="./images1/slide3_11zon.webp" alt="" />
               </div>
               <div className="facontent">
                 <div className="factitle">Skilled Staff</div>
@@ -46,7 +44,7 @@ const Facilities = () => {
               {/* sports */}
             <div className="facilitCard">
               <div className="facilimages">
-                <img src="./images/g2.jpeg" alt="" />
+                <img src="./images1/g2.webp" alt="" />
               </div>
               <div className="facontent">
                 <div className="factitle">Sports</div>
@@ -61,7 +59,7 @@ const Facilities = () => {
 
             <div className="facilitCard">
               <div className="facilimages">
-                <img src="./images/slide1.jpeg" alt="" />
+                <img src="./images1/slide1.webp" alt="" />
               </div>
               <div className="facontent">
                 <div className="factitle">Nice Infrastructure</div>
@@ -75,7 +73,7 @@ const Facilities = () => {
               {/* hygiene washroom */}
             <div className="facilitCard">
               <div className="facilimages">
-                <img src="./images/wash.jpg" alt="" />
+                <img src="./images1/wash.webp" alt="" />
               </div>
               <div className="facontent">
                 <div className="factitle">Hygienic Washroom</div>
@@ -88,7 +86,7 @@ const Facilities = () => {
 
             <div className="facilitCard">
               <div className="facilimages">
-                <img src="./images/g7.jpeg" alt="" />
+                <img src="./images1/g7.webp" alt="" />
               </div>
               <div className="facontent">
                 <div className="factitle">Good Academic</div>
@@ -100,7 +98,7 @@ const Facilities = () => {
 
             <div className="facilitCard">
               <div className="facilimages">
-                <img src="./images/bus1.jpeg" alt="" />
+                <img src="./images1/bus1.webp" alt="" />
               </div>
               <div className="facontent">
                 <div className="factitle">Transport Facility</div>
@@ -114,7 +112,7 @@ const Facilities = () => {
 
             <div className="facilitCard">
               <div className="facilimages">
-                <img src="./images/smart.jpg" alt="" /> 
+                <img src="./images1/smart.webp" alt="" /> 
               </div>
               <div className="facontent">
                 <div className="factitle">Smart Education Technology</div>

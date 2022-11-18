@@ -24,6 +24,9 @@
     background-color: #dbe1e7;
 }
 
+.kalur{
+    text-align: center;
+}
 .princd .photos{
     height: 85%;
   width: 22%;
@@ -103,12 +106,21 @@ color: rgb(14, 13, 13);
     color: black !important;
     text-align: left;
 }
+.kalurr{
+    text-align: center;
+}
 @media screen and (max-width:768px){
     .latest_card_box_ad{
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .kalur{
+        text-align: left;
+    }
+    .kalurr{
+        text-align: center;
     }
     .ourschoolboardeft{
         width: 100%;

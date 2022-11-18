@@ -7,26 +7,26 @@ const Gallery = () => {
     <div className="container-fluid">
         <div className="first">
             <div className="one">
-                <img src="./images/g1.jpeg" alt="" />
+                <img src="./images1/g1.webp" alt="" />
             </div>
             <div className="one">
-                <img src="./images/g2.jpeg" alt="" />
+                <img src="./images1/g2.webp" alt="" />
             </div><div className="one">
-                <img src="./images/army.jpg" alt="" />
+                <img src="./images1/g8.webp" alt="" />
             </div><div className="one">
-                <img src="./images/g4.jpeg" alt="" />
+                <img src="./images1/g4.webp" alt="" />
             </div>
         </div>
         <div className="first">
             <div className="one">
-                <img src="./images/g5.jpg" alt="" />
+                <img src="./images1/c2.webp" alt="" />
             </div>
             <div className="one">
-                <img src="./images/g6.jpeg" alt="" />
+                <img src="./images1/g6.webp" alt="" />
             </div><div className="one">
-                <img src="./images/g7.jpeg" alt="" />
+                <img src="./images1/g7.webp" alt="" />
             </div><div className="one">
-                <img src="./images/g8.jpeg" alt="" />
+                <img src="./images1/army.webp" alt="" />
             </div>
         </div>
     </div>

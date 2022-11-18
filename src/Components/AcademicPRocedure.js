@@ -9,11 +9,11 @@ const AcademicPRocedure = () => {
 
       <div className="container-fluid p-0">
         <div className="container-fluid d-flex latest_card_box_add p-0">
-          <div className="admssionleft py-5 px-3 text-left">
-            <div className="card_img11">
-              <img src="./images/ed1.png" alt="" />
-            </div>
+          <div className="admssionleft text-left">
+            
             <div className="title">
+          <h3 className="text-center" style={{color:"black", fontWeight:"bold"}}>Academic Procedure</h3>
+
               <p>
         Hogwarts Public school provides children with a
                 play-based or emergent curriculum, which is child-centred and
@@ -77,37 +77,7 @@ The mere act of Registration will not constitute a guaranteed admission, which i
                 The Ministry of Education requires that hildren spend at least
                 two (2) hours per day outdoors, weather permitting.
               </p>
-              {/* <h5>Program Fees:</h5>
-              <table className="table table-bordered tabld">
-                <thead style={{ backgroundColor: "#1D4776", color: "white" }}>
-                  <tr>
-                    <th scope="col">Type</th>
-                    <th scope="col">Annual Fees</th>
-                    <th scope="col">Monthly – 12 Months</th>
-                    <th scope="col">Duration</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Full time</td>
-                    <td>$11,040</td>
-                    <td>$920/month</td>
-                    <td> September to August</td>
-                  </tr>
-                  <tr>
-                    <td>Part time</td>
-                    <td>$6,180</td>
-                    <td>$515/month</td>
-                    <td>September to August</td>
-                  </tr>
-                </tbody>
-              </table> */}
-
-              {/* <h5>Registration Fee</h5>
-              <p>
-                A non-refundable registration fee of $100 must be paid at the
-                time of registration.This fee is for families new to Hogwarts Public school.
-              </p> */}
+             
               <h6>Junior Champions Preschool Handbook</h6>
               <p>
                 Each year, the Junior Champions Preschool publishes a parent
@@ -125,15 +95,7 @@ The mere act of Registration will not constitute a guaranteed admission, which i
             </div>
           </div>
 
-          <div className="accdright py-2">
-            <div className="card-image1">
-              <img src="./images/g1.jpeg" alt="..." className="img-thumbnail" />
-              <img src="./images/c1.jpg" alt="..." className="img-thumbnail" />
-              <img src="./images/c2.jpg" alt="..." className="img-thumbnail" />
-              <img src="./images/c3.jpg" alt="..." className="img-thumbnail" />
-              <img src="./images/c4.jpeg" alt="..." className="img-thumbnail" />
-            </div>
-          </div>
+          
         </div>
       </div>
     </>
