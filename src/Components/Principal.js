@@ -5,38 +5,15 @@ const Principal = () => {
   return (
     <>
       <div className="container-fluid p-0">
-        <div
-          id="carouselExampleIndicators"
-          className="carousel slide"
-          data-ride="carousel"
-        >
-          <ol className="carousel-indicators">
-            <li
-              data-target="#carouselExampleIndicators"
-              data-slide-to="0"
-              className="active"
-            ></li>
-          </ol>
-          <div className="carousel-inner" role="listbox">
-            <div className="carousel-item active">
-              <img
-                className="d-block slideimage"
-                src="./images/Principals.jpg"
-                alt="First slide"
-              />
-              <div className="container position-absolute ourschool">
-                <h1>OUR SCHOOL</h1>
-                <p>Home / OUR SCHOOL</p>
-              </div>
-            </div>
-          </div>
-        </div>
+        
 
         <div className="container-fluid latest_card_box_ad p-5">
+
           <div className="ourschoolboardeft px-0 text-left">
+
             <div className="princd">
               <div className="photos">
-                <img src="./images/princ.jpeg" alt="" />
+                <img src="./images1/princ.jpeg.webp" alt="" />
                 <div className="phname">
                   <b>Principal</b> - Mrs. Prabha Devra
                 </div>
@@ -57,6 +34,8 @@ const Principal = () => {
                 </p>
               </div>
             </div>
+          {/* <h4 className="kalurr" style={{color:"black", fontWeight:"bold"}}>Our Principal</h4> */}
+            
             <p>
               <b>Dear Parents, Students, and Visitors:</b>
             </p>

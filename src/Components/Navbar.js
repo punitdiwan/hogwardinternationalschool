@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className="container-fluid navmain">
        <div className="navleft">
          <div className="logo">
-            <img src="./images/hlogo1.png" alt="" />
+            <img src="./images1/hlogo1.png" alt="" />
          </div>
        </div>
        <div className="navmid">

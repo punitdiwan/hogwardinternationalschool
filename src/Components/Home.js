@@ -29,7 +29,7 @@ const BannerSection = () => {
             <div className="carousel-item active">
               <img
                 className="d-block slideimage"
-                src="./images/slide1.jpeg"
+                src="./images1/slide1.webp"
                 alt="First slide"
               />
               <div className="carousel-caption d-none d-md-block">
@@ -48,7 +48,7 @@ const BannerSection = () => {
             <div className="carousel-item">
               <img
                 className="d-block slideimage"
-                src="./images/slide2.jpeg"
+                src="./images1/slide2_11zon.webp"
                 alt="Second slide"
               />
               <div className="carousel-caption d-none d-md-block">
@@ -66,7 +66,7 @@ const BannerSection = () => {
             <div className="carousel-item">
               <img
                 className="d-block slideimage"
-                src="./images/slide3.jpeg"
+                src="./images1/slide3_11zon.webp"
                 alt="Third slide"
               />
               <div className="carousel-caption d-none d-md-block">
@@ -85,7 +85,7 @@ const BannerSection = () => {
             <div className="carousel-item">
               <img
                 className="d-block slideimage"
-                src="./images/slide4.jpeg"
+                src="./images1/slide4_11zon.webp"
                 alt="Fourt slide"
               />
               <div className="carousel-caption d-none d-md-block">
@@ -103,7 +103,7 @@ const BannerSection = () => {
             <div className="carousel-item">
               <img
                 className="d-block slideimage"
-                src="./images/slide5.jpeg"
+                src="./images1/slide5_11zon.webp"
                 alt="Fifth slide"
               />
               <div className="carousel-caption d-none d-md-block">
@@ -155,7 +155,7 @@ const BannerSection = () => {
         <div className="container-fluid px-5 d-flex latest_card_box">
           <div className="lnewsleft p-3">
             <div className="card_img1">
-              <img src="./images/g1.jpeg" alt="" />
+              <img src="./images1/g1.webp" alt="" />
             </div>
             <div className="title">
               <h3 className="my-3 ak">Swimming Pool</h3>
@@ -168,7 +168,7 @@ const BannerSection = () => {
           </div>
           <div className="lnewsmid p-3">
             <div className="card_img1">
-              <img src="./images/slide3.jpeg" alt="" />
+              <img src="./images1/slide3_11zon.webp" alt="" />
             </div>
             <div className="title">
               <h3 className="my-3 ak">Skilled Staff</h3>
@@ -181,7 +181,7 @@ const BannerSection = () => {
           </div>
           <div className="lnewsright p-3">
             <div className="card_img1">
-              <img src="./images/g3.jpeg" alt="" />
+              <img src="./images1/g3.webp" alt="" />
             </div>
             <div className="title">
               <h3 className="my-3 ak">Sports</h3>
@@ -264,15 +264,15 @@ const BannerSection = () => {
         <div className="container-fluid p-0  d-flex latest_card_box_hls">
           <div className="hlsleft">
             <div className="ccc1_img">
-              <img src="./images/home1.jpeg" alt="" />
+              <img src="./images1/home1.webp" alt="" />
             </div>
             <div className="ccc2_img">
-              <img src="./images/home2.jpeg" alt="" />
+              <img src="./images1/home2.webp" alt="" />
             </div>
           </div>
           <div className="hlsmid text-center p-5">
             <div className="card_imgl my-5">
-              <img src="./images/hlogo1.png" alt="" />
+              <img src="./images1/hlogo1.png" alt="" />
             </div>
             <div className="title1 my-5">
               <div className="hlstbutton1">
@@ -319,10 +319,10 @@ const BannerSection = () => {
           </div>
           <div className="hlsright">
             <div className="ccc2_img">
-              <img src="./images/home3.jpeg" alt="" />
+              <img src="./images1/home3.webp" alt="" />
             </div>
             <div className="ccc1_img">
-              <img src="./images/home4.jpeg" alt="" />
+              <img src="./images1/home4.webp" alt="" />
             </div>
           </div>
         </div>

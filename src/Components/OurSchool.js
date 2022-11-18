@@ -6,35 +6,14 @@ const OurSchool = () => {
   return (
     <>
       <div className="container-fluid p-0">
-        <div
-          id="carouselExampleIndicators"
-          className="carousel slide"
-          data-ride="carousel"
-        >
-          <ol className="carousel-indicators">
-            <li
-              data-target="#carouselExampleIndicators"
-              data-slide-to="0"
-              className="active"
-            ></li>
-          </ol>
-          <div className="carousel-inner" role="listbox">
-            <div className="carousel-item active">
-              <img
-                className="d-block slideimage"
-                src="./images/slide2.jpeg"
-                alt="First slide"
-              />
-              <div className="container position-absolute ourschool">
-                <h1>OUR SCHOOL</h1>
-                <p>Home / OUR SCHOOL</p>
-              </div>
-            </div>
-          </div>
-        </div>
+     
+        
+      
 
         <div className="container-fluid d-flex latest_card_box_ad p-0">
+
           <div className="ourschooleft p-5 text-left">
+          <h4 className="kalur text-center" style={{color:"black", fontWeight:"bold"}}>Our School</h4>
             <b>
               <p>
                 <em>Hogwarts International School.</em>

@@ -6,38 +6,15 @@ const BoardD = () => {
   return (
     <>
       <div className="container-fluid p-0">
-        <div
-          id="carouselExampleIndicators"
-          className="carousel slide"
-          data-ride="carousel"
-        >
-          <ol className="carousel-indicators">
-            <li
-              data-target="#carouselExampleIndicators"
-              data-slide-to="0"
-              className="active"
-            ></li>
-          </ol>
-          <div className="carousel-inner" role="listbox">
-            <div className="carousel-item active">
-              <img
-                className="d-block slideimage"
-                src="./images/bod.png"
-                alt="First slide"
-              />
-              <div className="container position-absolute ourschoolboard">
-                <h1>BOARD OF DIRECTORS</h1>
-                <p>Home / BOARD OF DIRECTORS</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
+     
+        
         <div className="container-fluid d-flex latest_card_box_ad pt-0">
           <div className="ourschoolboardeft px-3 text-left">
+          <h4 className="kalurr mt-3" style={{color:"black", fontWeight:"bold"}}>Board Of Director</h4>
+
             <div className="princd">
               <div className="photos">
-                <img src="./images/director.jpeg" alt="" />
+                <img src="./images1/director.webp" alt="" />
                 <div className="phname">
                   <b>Director</b> - Dr. Gagan Namdev
                 </div>
