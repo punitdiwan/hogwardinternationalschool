@@ -49,7 +49,7 @@ The mere act of Registration will not constitute a guaranteed admission, which i
               
               <h5><b>Submission of Documents:</b></h5>
               <p>Following Registration, duly filled Application form needs to be submitted along with the documents listed below within 5 days of the registration date.</p>
-             <ul type="square" style={{color:"black"}}>
+             <ul type="square" style={{color:"black",padding:"0px 20px"}}>
                   <li>Attested copy of Birth certificate</li>
                   <li>TC from previous school (class II onwards)</li>
                   <li>6 passport size photos of the child and 1 each of the parents</li>

@@ -49,9 +49,6 @@ const NextNavbar = () => {
         <NavLink className="nav-link" style={{color:"#2F3A72",fontWeight:"bold"}} to="/contactus">CONTACT US</NavLink>
       </li>
     
-      {/* <li className="nav-item px-3">
-        <a className="nav-link btn btn-sm loginbtn py-1 px-2" href="#">Login</a>
-      </li> */}
     </ul> 
   </div>
 </nav>
