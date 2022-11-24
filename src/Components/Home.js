@@ -322,7 +322,7 @@ const BannerSection = () => {
               <img src="./images1/home3.webp" alt="" />
             </div>
             <div className="ccc1_img">
-              <img src="./images1/home4.webp" alt="" />
+              <img src="./images1/yog.jpeg" alt="" />
             </div>
           </div>
         </div>

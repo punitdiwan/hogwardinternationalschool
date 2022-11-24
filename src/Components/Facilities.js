@@ -59,7 +59,7 @@ const Facilities = () => {
 
             <div className="facilitCard">
               <div className="facilimages">
-                <img src="./images1/slide1.webp" alt="" />
+                <img src="./images1/DSC_2126.JPG" alt="" />
               </div>
               <div className="facontent">
                 <div className="factitle">Nice Infrastructure</div>
@@ -73,11 +73,11 @@ const Facilities = () => {
               {/* hygiene washroom */}
             <div className="facilitCard">
               <div className="facilimages">
-                <img src="./images1/wash.webp" alt="" />
+                <img src="./images1/a2.jpeg" alt="" />
               </div>
               <div className="facontent">
-                <div className="factitle">Hygienic Washroom</div>
-                <p>Hygienic washrooms keep us safe. We all care about what's on the outside, and it is natural to do so. But, the next time you're in a washroom ..</p>
+                <div className="factitle">Medical Camp</div>
+                <p>The medical camps are conducted by qualified doctors and nurses either employed by Hand in Hand or from reputed hospitals. Patients with mild disorders are prescribed medication during the camp and those with serious disorders are referred to the nearest primary healthcare centre.</p>
               </div>
             </div>
 
@@ -86,7 +86,7 @@ const Facilities = () => {
 
             <div className="facilitCard">
               <div className="facilimages">
-                <img src="./images1/g7.webp" alt="" />
+                <img src="./images1/goda.jpeg" alt="" />
               </div>
               <div className="facontent">
                 <div className="factitle">Good Academic</div>
@@ -112,11 +112,11 @@ const Facilities = () => {
 
             <div className="facilitCard">
               <div className="facilimages">
-                <img src="./images1/smart.webp" alt="" /> 
+                <img src="./images1/a3.jpeg" alt="" /> 
               </div>
               <div className="facontent">
-                <div className="factitle">Smart Education Technology</div>
-                <p>The learning experience can be enhanced by educational technology for students of all ages and can even assist in the education of students with their special needs and wants. These high-tech tools contribute an important role for students in education. In fact, technology is an entryway to education and professional skills.</p>
+                <div className="factitle">Smart Auditorium Hall</div>
+                <p>Hogwarts International School have a smart Auditorium hall for meetings or cleberating functions or festival in the school . 60+ students and faculties can appear in this Hall. </p>
               </div>
             </div>
 

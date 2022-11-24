@@ -12,8 +12,8 @@ const OurSchool = () => {
 
         <div className="container-fluid d-flex latest_card_box_ad p-0">
 
-          <div className="ourschooleft p-5 text-left">
-          <h4 className="kalur text-center" style={{color:"black", fontWeight:"bold"}}>Our School</h4>
+          <div className="ourschooleft px-5 text-left">
+          {/* <h4 className="kalur text-center" style={{color:"black", fontWeight:"bold"}}>Our School</h4> */}
             <b>
               <p>
                 <em>Hogwarts International School.</em>
@@ -45,7 +45,7 @@ const OurSchool = () => {
               </p>
             </b>
             <h5>Hogwarts International Schoolis proud to offer:</h5>
-            <ul>
+            <ul className="px-3">
               <li>Hogwarts International School is proud to offer:</li>
               <li>A great Indian environment for growing and learning</li>
               {/* <li>Indian Studies, CBSC, and programs</li> */}

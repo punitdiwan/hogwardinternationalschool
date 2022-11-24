@@ -37,7 +37,7 @@
 
 
 .socialmedia{
-    width: 5vw; 
+    width: 10vw; 
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -95,6 +95,10 @@ color: #313C74;
 
 .navbar-toggler{
     border: none;
+  
+}
+.navbar-toggler:focus{
+outline: none;
   
 }
 #firsth{
