@@ -90,7 +90,7 @@ The mere act of Registration will not constitute a guaranteed admission, which i
               </h5> */}
               <h5>
                 Email to :   &nbsp;
-                <a href="mailto:Hogwartsinternational339@gmail.com">www.Hogwartsinternational339@gmail.com</a>
+                <a href="mailto:Hogwartsinternational339@gmail.com">Hogwartsinternational339@gmail.com</a>
               </h5>
             </div>
           </div>
