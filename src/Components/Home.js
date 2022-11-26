@@ -5,9 +5,13 @@ import "./css/Admission.css";
 import "./css/HlastSection.css";
 import { NavLink } from "react-router-dom";
 
+
 const BannerSection = () => {
   return (
     <>
+
+
+    
       <div className="container-fluid p-0">
         <div
           id="carouselExampleIndicators"

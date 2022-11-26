@@ -11,6 +11,7 @@ import Facilities from './Components/Facilities';
 import ContactUs from './Components/ContactUs';
 import AcademicPRocedure from './Components/AcademicPRocedure';
 import OurSchool from './Components/OurSchool';
+import Updates from './Components/Updates';
 import BoardD from './Components/BoardD';
 import Principal from './Components/Principal';
 import ScrollToTop from './Components/ScrollToTop';
@@ -22,6 +23,7 @@ function App() {
     <div className='container-fluid mainbgcch p-0'>
       <BrowserRouter>
       <ScrollToTop/>
+         <Updates/>
       <Navbar/>
       <NextNavbar/>
       <Routes>
