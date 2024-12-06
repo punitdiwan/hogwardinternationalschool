@@ -11,7 +11,7 @@ const BannerSection = () => {
     <>
 
 
-    
+
       <div className="container-fluid p-0">
         <div
           id="carouselExampleIndicators"
@@ -152,7 +152,7 @@ const BannerSection = () => {
       </div>
 
       {/* Latest New Section---------------------- */}
-    
+
       <div className="container-fluid p-0">
         <h1 className="heading1 ada">Facilities</h1>
 
@@ -201,7 +201,7 @@ const BannerSection = () => {
 
         <div className="latestbutton p-2">
           <NavLink className="btn btn-lg kop viewbtn" to="/facilities">
-            View all New
+            View all Facilities
           </NavLink>
         </div>
       </div>
