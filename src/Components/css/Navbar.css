@@ -1,53 +1,58 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Ascender Serif";
 }
-.navmain{
+
+.navmain {
     background-color: #1D4776;
     display: flex;
-    align-items:center;
-    justify-content:space-around;
-    padding:10px 20px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
 
 }
+
 .navleft {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 10%;
 }
+
 .navleft .logo {
-    height: auto;
- width: 5vw;
- 
+    height: 7vw;
+    width: 7vw;
+
 }
-.navleft .logo img{
- height: 100%;
- width: 100%;
- /* background-color: red; */
+
+.navleft .logo img {
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
 }
-.navmid{
+
+.navmid {
     color: white;
     text-align: center;
     width: 65%;
 }
 
 
-.socialmedia{
-    width: 10vw; 
+.socialmedia {
+    width: 10vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: white;
 }
-.socialmedia i{
+
+.socialmedia i {
     font-size: 2vmax;
 }
 
-.navright{
+.navright {
     /* width: 15vw; */
     width: 30%;
     display: flex;
@@ -57,12 +62,14 @@
 
     /* background-color: red; */
 }
-.seacrch{
+
+.seacrch {
     display: flex;
-    
-    
+
+
 }
-.seacrch .btn{
+
+.seacrch .btn {
     color: rgb(255, 255, 255);
     border-radius: 0px;
     border: none;
@@ -71,177 +78,210 @@
     display: flex;
     align-items: center;
 }
-.aa{
+
+.aa {
     border: white;
     height: 30px;
 }
 
 
 .nextnavbar {
-font-size: 1.3vmax;
-color: #313C74;
+    font-size: 1.3vmax;
+    color: #313C74;
 }
-.loginbtn{
+
+.loginbtn {
     color: white;
     background-color: #EF4444;
 }
+
 .nextnavbar .loginbtn {
     color: white;
 }
-.nextnavbar .loginbtn:hover{
+
+.nextnavbar .loginbtn:hover {
     background-color: #EF4444;
 
 }
 
-.navbar-toggler{
+.navbar-toggler {
     border: none;
-  
-}
-.navbar-toggler:focus{
-outline: none;
-  
-}
-#firsth{
-    font-size: 35px;
-}
-.navmid h1{
-    font-size: 25px;
+
 }
 
-@media screen and (max-width:768px){
-    .navmain{
-    flex-direction: column;
-    padding: 13px 0px 18px 0px;
+.navbar-toggler:focus {
+    outline: none;
+
+}
+
+#firsth {
+    font-size: 4vw;
+}
+
+.navmid h1 {
+    font-size: 3vw;
+}
+
+@media screen and (max-width:768px) {
+    .navmain {
+        flex-direction: column;
+        padding: 13px 0px 18px 0px;
 
     }
+
     .navleft {
         width: 100%;
-        margin-bottom:8px;
+        margin-bottom: 8px;
     }
+
     .navmid {
         width: 100%;
     }
+
     .navright {
         width: 100%;
     }
-    .socialmedia{
-        width: 40vw; 
+
+    .socialmedia {
+        width: 40vw;
         display: flex;
         align-items: center;
         justify-content: space-between;
         color: white;
     }
-    .socialmedia i{
+
+    .socialmedia i {
         font-size: 30px;
     }
-    .nav-link{
+
+    .nav-link {
         font-size: 15px;
         color: #2F3A72;
         font-weight: bold;
     }
-    .navtoggle{
+
+    .navtoggle {
         display: flex;
         align-items: center;
         justify-content: center;
         width: 100%;
     }
+
     .navleft .logo {
         height: auto;
-     width: 20vw;
+        width: 20vw;
     }
-    .navmid h1{
+
+    .navmid h1 {
         font-size: 22px;
     }
-    #firsth{
+
+    #firsth {
         font-size: 28px;
     }
-    
-    .aa{
-       height: 30px;
+
+    .aa {
+        height: 30px;
 
     }
-    .seacrch .btn{
+
+    .seacrch .btn {
         height: 30px;
         font-size: 17px;
     }
-    .socialmedia i{
+
+    .socialmedia i {
         font-size: 20px;
     }
-    .navmid p{
-       font-size: 12px;
+
+    .navmid p {
+        font-size: 12px;
     }
-    .socialmedia{
-        width: 30vw; 
+
+    .socialmedia {
+        width: 30vw;
     }
 }
 
 
 
 
-@media screen and (max-width:500px){
-    .navmain{
-    flex-direction: column;
-    padding: 13px 0px 18px 0px;
+@media screen and (max-width:500px) {
+    .navmain {
+        flex-direction: column;
+        padding: 13px 0px 18px 0px;
     }
+
     .navleft {
         width: 100%;
-        margin-bottom:8px;
+        margin-bottom: 8px;
     }
+
     .navmid {
         width: 100%;
     }
+
     .navright {
         width: 100%;
     }
-    .socialmedia{
-        width: 40vw; 
+
+    .socialmedia {
+        width: 40vw;
         display: flex;
         align-items: center;
         justify-content: space-between;
         color: white;
     }
-    .socialmedia i{
+
+    .socialmedia i {
         font-size: 30px;
     }
-    .nav-link{
+
+    .nav-link {
         font-size: 15px;
         color: #2F3A72;
         font-weight: bold;
     }
-    .navtoggle{
+
+    .navtoggle {
         display: flex;
         align-items: center;
         justify-content: center;
         width: 100%;
     }
+
     .navleft .logo {
         height: auto;
-     width: 20vw;
+        width: 20vw;
     }
-    .navmid h1{
+
+    .navmid h1 {
         font-size: 15px;
     }
-    #firsth{
+
+    #firsth {
         font-size: 23px;
     }
-    
-    .aa{
-       height: 30px;
+
+    .aa {
+        height: 30px;
 
     }
-    .seacrch .btn{
+
+    .seacrch .btn {
         height: 30px;
         font-size: 15px;
     }
-    .socialmedia i{
+
+    .socialmedia i {
         font-size: 20px;
     }
-    .navmid p{
-       font-size: 12px;
+
+    .navmid p {
+        font-size: 12px;
     }
-    .socialmedia{
-        width: 30vw; 
+
+    .socialmedia {
+        width: 30vw;
     }
 }
-
-
