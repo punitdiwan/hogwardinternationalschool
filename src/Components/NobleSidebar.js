@@ -24,7 +24,7 @@ const NobleSidebar = () => {
           <a
             className="text-center hogbtn"
             rel="noopener noreferrer"
-            href="/home"
+            href=""
             style={{ color: "white" }}
           >
             HOGWARTS INTERNATIONAL SCHOOL
