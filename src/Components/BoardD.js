@@ -39,11 +39,15 @@ const BoardD = () => {
 
             <div className="princd">
               <div className="photos">
-                <img src={directorData.fullUrl?.replace('http://', 'https://')} />
+                <img
+                  src={directorData.fullUrl?.replace('http://', 'https://')}
+                  alt={`${directorData.directorName}`}
+                />
                 <div className="phname">
-                  <b>Director</b>-   {directorData.directorName}
+                  <b>Director</b>- {directorData.directorName}
                 </div>
               </div>
+
 
               <div className="director_mess">
                 <h5>

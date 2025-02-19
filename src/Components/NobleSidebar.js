@@ -21,7 +21,14 @@ const NobleSidebar = () => {
             borderRadius: "2px",
           }}
         >
-          <a className="text-center hogbtn" style={{ color: "white", }}>HOGWARTS INTERNATIONAL SCHOOL</a>
+          <a
+            className="text-center hogbtn"
+            rel="noopener noreferrer"
+            href="/home"
+            style={{ color: "white" }}
+          >
+            HOGWARTS INTERNATIONAL SCHOOL
+          </a>
         </div>
         {/* <button className="nobaa mt-5">Hogwarts International School</button> */}
         <div className="nobaa nobaaa">
@@ -54,20 +61,18 @@ const NobleSidebar = () => {
 
             <NavLink to="">ABOUT US</NavLink>
           </div>
-          <div
-            className="dropdown-menu p-0"
-            aria-labelledby="dropdownMenuButton"
-          >
-            <a className="dropdown-item" to="/ourschool">
+          <div className="dropdown-menu p-0" aria-labelledby="dropdownMenuButton">
+            <a className="dropdown-item" href="/ourschool" rel="noopener noreferrer">
               OUR SCHOOL
             </a>
-            <a className="dropdown-item" to="/boarddirector">
+            <a className="dropdown-item" href="/boarddirector" rel="noopener noreferrer">
               BOARD OF DIRECTOR
             </a>
-            <a className="dropdown-item" to="/principal">
+            <a className="dropdown-item" href="/principal" rel="noopener noreferrer">
               PRINCIPAL
             </a>
           </div>
+
 
           <div
             className="btn btn-light nobaaa1 "
@@ -113,7 +118,7 @@ const NobleSidebar = () => {
               borderRadius: "2px",
             }}
           >
-            <a>Did You Know?</a>
+            <p>Did You Know?</p>
           </div>
           <div
             className="btn btn-sm p-3 didyou"

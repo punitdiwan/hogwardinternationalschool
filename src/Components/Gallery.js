@@ -72,7 +72,7 @@ const Gallery = () => {
                                 <img
                                     src={item?.images?.data?.full_url?.replace('http://', 'https://')}
                                     className="mt-3 imght"
-                                    alt={`Image ${i}`}
+                                    alt={`item ${i}`}
                                 />
                             </div>
                         ))}
