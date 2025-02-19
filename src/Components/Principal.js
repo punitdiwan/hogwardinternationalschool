@@ -1,11 +1,34 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import NobleSidebar from "./NobleSidebar";
 
 const Principal = () => {
+  const [principleData, setPrincipleData] = useState(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('https://cms.maitretech.com/hogwartsinternationalhighschool/items/principle_message?fields=*.*');
+        const data = await response.json();
+
+        if (data && data.data && data.data.length > 0) {
+          setPrincipleData(data.data[0]);
+        }
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  if (!principleData) {
+    return <div>Loading...</div>;
+  }
+
   return (
     <>
       <div className="container-fluid p-0">
-        
+
 
         <div className="container-fluid latest_card_box_ad p-5">
 
@@ -13,29 +36,29 @@ const Principal = () => {
 
             <div className="princd">
               <div className="photos">
-                <img src="./images1/princ.jpeg.webp" alt="" />
+                {principleData.principle_image?.data?.full_url ? (
+                  <img
+                    src={principleData.principle_image.data.full_url?.replace('http://', 'https://')}
+                    alt="Principal"
+                  />
+                ) : (
+                  <div>No Image Available</div>
+                )}
                 <div className="phname">
-                  <b>Principal</b> - Mrs. Prabha Devra
+                  <b>Principal</b>  {principleData.principle_name}
                 </div>
               </div>
 
               <div className="director_mess">
                 <h5>
                   <b>Principal Message -</b>
+                  <h6>{principleData.principle_message || ''}</h6>
+
                 </h5>
-                <p>
-                  Warm Greeting from Hogwarts International school family, we firmly believed
-                  that school education lays the foundation for the future of
-                  the students and ensure a stable. According to the words of Swami Vivekanand "Arise, awake
-                  and stop not till the goal is reached" echo in my mind. The
-                  School activities are planned and prepared meticulously,
-                  Our mission is to produce educated smart and confident
-                  citizens of India.
-                </p>
               </div>
             </div>
-          {/* <h4 className="kalurr" style={{color:"black", fontWeight:"bold"}}>Our Principal</h4> */}
-            
+            {/* <h4 className="kalurr" style={{color:"black", fontWeight:"bold"}}>Our Principal</h4> */}
+
             <p>
               <b>Dear Parents, Students, and Visitors:</b>
             </p>
@@ -49,7 +72,7 @@ const Principal = () => {
               continue working with you for the best interests of our beloved
               students and our community at large.
             </p>
-             
+
             <p>
               Nothing can be more effective in motivating the students and
               sustaining success in the school than celebrating the students’

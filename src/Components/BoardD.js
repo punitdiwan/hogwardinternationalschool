@@ -1,41 +1,65 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./css/board.css";
 import NobleSidebar from "./NobleSidebar";
 
 const BoardD = () => {
+  const [directorData, setDirectorData] = useState(null);
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('https://cms.maitretech.com/hogwartsinternationalhighschool/items/director_message?fields=*.*');
+        const data = await response.json();
+        const directorInfo = {
+          directorName: data.data[0].director_name,
+          directorMessage: data.data[0].director_message,
+          fullUrl: data.data[0].director_image.data.full_url,
+        };
+        setDirectorData(directorInfo);
+      } catch (error) {
+        console.error('Error fetching director message:', error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  if (!directorData) {
+    return <p>Loading...</p>;
+  }
+
+
   return (
     <>
       <div className="container-fluid p-0">
-     
-        
+
+
         <div className="container-fluid d-flex latest_card_box_ad pt-0">
           <div className="ourschoolboardeft px-3 text-left">
-          <h4 className="kalurr mt-3" style={{color:"black", fontWeight:"bold"}}>Board Of Director</h4>
+            <h4 className="kalurr mt-3" style={{ color: "black", fontWeight: "bold" }}>Board Of Director</h4>
 
             <div className="princd">
               <div className="photos">
-                <img src="./images1/director.webp" alt="" />
+                <img
+                  src={directorData.fullUrl?.replace('http://', 'https://')}
+                  alt={`${directorData.directorName}`}
+                />
                 <div className="phname">
-                  <b>Director</b> - Dr. Gagan Namdev
+                  <b>Director</b>- {directorData.directorName}
                 </div>
               </div>
+
 
               <div className="director_mess">
                 <h5>
                   <b>Director Message -</b>
                 </h5>
                 <p>
-                  Dear Parent & Students, It gives me great pleasure to welcome
-                  you to HogwartsWe follow a rigorous programme that is based
-                  upon the best educational practices, highly progressive and
-                  recognized world-wide; and one that creates conditions for
-                  students to maximize their potential at an internationally
-                  competitive level. highly qualified and well-trained teachers.
-                  I welcome you to be a part of Hogwarts International family!
+                  {directorData.directorMessage}
+
                 </p>
               </div>
 
-              
+
             </div>
             <p>
               <b>
@@ -79,7 +103,7 @@ const BoardD = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td>Dr. Gagan Namdev</td>
+                  <td> {directorData.directorName}</td>
                   <td>Director</td>
                 </tr>
                 <tr>

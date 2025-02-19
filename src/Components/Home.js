@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./css/BannerS.css";
 import "./css/LatestNews.css";
 import "./css/Admission.css";
@@ -7,11 +7,29 @@ import { NavLink } from "react-router-dom";
 
 
 const BannerSection = () => {
+  const [slides, setSlides] = useState([]);
+
+  useEffect(() => {
+    fetch('https://cms.maitretech.com/hogwartsinternationalhighschool/items/slider?fields=*.*.*')
+      .then(response => response.json())
+      .then(data => {
+        const apiSlides = data.data.map(slide => ({
+          sliderName: slide.slider_name,
+          sliderMessage: slide.slider_message,
+          fullUrl: slide.slider_images.data.full_url,
+        }));
+
+        console.log("apiSlides", apiSlides);
+
+        setSlides(apiSlides);
+      })
+      .catch(error => console.error('Error:', error));
+  }, []);
   return (
     <>
 
 
-    
+
       <div className="container-fluid p-0">
         <div
           id="carouselExampleIndicators"
@@ -30,96 +48,68 @@ const BannerSection = () => {
             <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
           </ol>
           <div className="carousel-inner" role="listbox">
-            <div className="carousel-item active">
-              <img
-                className="d-block slideimage"
-                src="./images1/slide1.webp"
-                alt="First slide"
-              />
-              <div className="carousel-caption d-none d-md-block">
-                <h1>
-                  <b>Hogwarts International School</b>
-                </h1>
-                <p>
-                  <b>
-                    Embracing state-of-the-art technology in our classrooms
-                    allows Hogwarts International School to facilitate 21st
-                    century teaching and learning for its teachers and students.
-                  </b>
-                </p>
-              </div>
+            <div className="carousel-inner" role="listbox">
+              {slides.map((slide, index) => (
+                <div
+                  key={index}
+                  className={`carousel-item ${index === 0 ? "active" : ""}`}
+                >
+                  <img
+                    className="d-block slideimage"
+                    src={slide.fullUrl?.replace('http://', 'https://')}
+                    alt={`Slide ${index + 1}`}
+                  />
+                  <div className="carousel-caption d-none d-md-block">
+                    <h1
+                      dangerouslySetInnerHTML={{
+                        __html: slide.sliderName,
+                      }}>
+                    </h1>
+                    <p
+                      dangerouslySetInnerHTML={{
+                        __html: slide.sliderMessage,
+                      }}
+                    ></p>
+                  </div>
+                </div>
+              ))}
             </div>
             <div className="carousel-item">
-              <img
-                className="d-block slideimage"
-                src="./images1/slide2_11zon.webp"
-                alt="Second slide"
-              />
+
               <div className="carousel-caption d-none d-md-block">
                 <h1 style={{ color: "black" }}>
-                  <b>Dynamic Educators</b>
                 </h1>
                 <p>
-                  <b style={{ color: "#262624" }}>
-                    Hogwarts International School to facilitate 21st century
-                    teaching and learning for its teachers and students.
-                  </b>
+
                 </p>
               </div>
             </div>
             <div className="carousel-item">
-              <img
-                className="d-block slideimage"
-                src="./images1/slide3_11zon.webp"
-                alt="Third slide"
-              />
+
               <div className="carousel-caption d-none d-md-block">
                 <h1>
-                  <b>Hands-on learning</b>
                 </h1>
                 <p>
-                  <b>
-                    Since its inception, HIS has consistently grown year after
-                    year and has gained a reputation of becoming a leading
-                    educational institute.
-                  </b>
+
                 </p>
               </div>
             </div>
             <div className="carousel-item">
-              <img
-                className="d-block slideimage"
-                src="./images1/slide4_11zon.webp"
-                alt="Fourt slide"
-              />
+
               <div className="carousel-caption d-none d-md-block">
                 <h1>
-                  <b>Safe and Caring Environment</b>
                 </h1>
                 <p>
-                  <b>
-                    Feeling safe and cared for is what makes our school
-                    community a complete family!
-                  </b>
+
                 </p>
               </div>
             </div>
             <div className="carousel-item">
-              <img
-                className="d-block slideimage"
-                src="./images1/slide5_11zon.webp"
-                alt="Fifth slide"
-              />
+
               <div className="carousel-caption d-none d-md-block">
-                <h1>
-                  <b>21st Century Education</b>
-                </h1>
+
                 <p>
-                  <b>
-                    Embracing state-of-the-art technology in our classrooms
-                    allows Hogwarts International School to facilitate 21st
-                    century teaching and learning for its teachers and students.
-                  </b>
+
                 </p>
               </div>
             </div>
@@ -152,7 +142,7 @@ const BannerSection = () => {
       </div>
 
       {/* Latest New Section---------------------- */}
-    
+
       <div className="container-fluid p-0">
         <h1 className="heading1 ada">Facilities</h1>
 
@@ -201,7 +191,7 @@ const BannerSection = () => {
 
         <div className="latestbutton p-2">
           <NavLink className="btn btn-lg kop viewbtn" to="/facilities">
-            View all New
+            View all Facilities
           </NavLink>
         </div>
       </div>
