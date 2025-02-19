@@ -38,7 +38,7 @@ const Principal = () => {
               <div className="photos">
                 {principleData.principle_image?.data?.full_url ? (
                   <img
-                    src={principleData.principle_image.data.full_url}
+                    src={principleData.principle_image.data.full_url?.replace('http://', 'https://')}
                     alt="Principal"
                   />
                 ) : (

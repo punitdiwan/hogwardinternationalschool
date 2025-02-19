@@ -56,7 +56,7 @@ const BannerSection = () => {
                 >
                   <img
                     className="d-block slideimage"
-                    src={slide.fullUrl}
+                    src={slide.fullUrl?.replace('http://', 'https://')}
                     alt={`Slide ${index + 1}`}
                   />
                   <div className="carousel-caption d-none d-md-block">

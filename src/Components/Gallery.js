@@ -20,6 +20,7 @@ const Gallery = () => {
     }
 
     const images = data.data;
+    console.log("images", images);
 
 
     return (
@@ -29,7 +30,7 @@ const Gallery = () => {
                 <h2 className="text-center text-uppercase py-5">Gallery</h2>
 
                 <div className="container-fluid">
-                    <div className="first">
+                    {/*  <div className="first">
 
                         <div className="one">
                             <img src="./images1/abc.jpeg" alt="" />
@@ -63,22 +64,25 @@ const Gallery = () => {
                         </div><div className="one">
                             <img src="./images1/army.webp" alt="" />
                         </div>
+                    </div>  */}
+
+                    <div className="first">
+                        {images.map((item, i) => (
+                            <div key={item.id || i} className="one">
+                                <img
+                                    src={item?.images?.data?.full_url?.replace('http://', 'https://')}
+                                    className="mt-3 imght"
+                                    alt={`Image ${i}`}
+                                />
+                            </div>
+                        ))}
                     </div>
+
                 </div>
 
 
 
-                <div className="first">
-                    {images.map((item, i) => (
-                        <div key={item.id || i} className="one">
-                            <img
-                                src={item?.images?.data?.full_url}
-                                className="mt-3 imght"
-                                alt={`Image ${i}`}
-                            />
-                        </div>
-                    ))}
-                </div>
+
             </div>
         </>
     )
