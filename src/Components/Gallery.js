@@ -8,7 +8,9 @@ const fetcher = async (url) => {
     return response.data;
 };
 const Gallery = () => {
-    const API_ENDPOINT = 'https://cms.maitretech.com/hogwartsinternationalhighschool/items/gallery?fields=*.*.*';
+      const baseUrl = process.env.REACT_APP_BASE_URL;
+    const school = process.env.REACT_APP_SCHOOL;
+    const API_ENDPOINT = `${baseUrl}/${school}/items/gallery?fields=*.*.*`;
     const { data, error } = useSWR(API_ENDPOINT, fetcher);
 
     if (error) {

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { NavLink } from "react-router-dom"
 
@@ -24,7 +25,7 @@ const NobleSidebar = () => {
           <a
             className="text-center hogbtn"
             rel="noopener noreferrer"
-            href=""
+            href="#"
             style={{ color: "white" }}
           >
             HOGWARTS INTERNATIONAL SCHOOL

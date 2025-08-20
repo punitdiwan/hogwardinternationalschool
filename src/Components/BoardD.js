@@ -4,10 +4,12 @@ import NobleSidebar from "./NobleSidebar";
 
 const BoardD = () => {
   const [directorData, setDirectorData] = useState(null);
+  const baseUrl = process.env.REACT_APP_BASE_URL;
+  const school = process.env.REACT_APP_SCHOOL;
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('https://cms.maitretech.com/hogwartsinternationalhighschool/items/director_message?fields=*.*');
+        const response = await fetch(`${baseUrl}/${school}/items/director_message?fields=*.*`);
         const data = await response.json();
         const directorInfo = {
           directorName: data.data[0].director_name,
@@ -21,7 +23,7 @@ const BoardD = () => {
     };
 
     fetchData();
-  }, []);
+  }, [school,baseUrl]);
 
   if (!directorData) {
     return <p>Loading...</p>;

@@ -3,11 +3,12 @@ import NobleSidebar from "./NobleSidebar";
 
 const Principal = () => {
   const [principleData, setPrincipleData] = useState(null);
-
+  const baseUrl = process.env.REACT_APP_BASE_URL;
+    const school = process.env.REACT_APP_SCHOOL;
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('https://cms.maitretech.com/hogwartsinternationalhighschool/items/principle_message?fields=*.*');
+        const response = await fetch(`${baseUrl}/${school}/items/principle_message?fields=*.*`);
         const data = await response.json();
 
         if (data && data.data && data.data.length > 0) {
@@ -19,7 +20,7 @@ const Principal = () => {
     };
 
     fetchData();
-  }, []);
+  }, [school,baseUrl]);
 
   if (!principleData) {
     return <div>Loading...</div>;
