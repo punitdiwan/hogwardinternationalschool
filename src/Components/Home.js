@@ -8,9 +8,10 @@ import { NavLink } from "react-router-dom";
 
 const BannerSection = () => {
   const [slides, setSlides] = useState([]);
-
+  const baseUrl = process.env.REACT_APP_BASE_URL;
+    const school = process.env.REACT_APP_SCHOOL;
   useEffect(() => {
-    fetch('https://cms.maitretech.com/hogwartsinternationalhighschool/items/slider?fields=*.*.*')
+    fetch(`${baseUrl}/${school}/items/slider?fields=*.*.*`)
       .then(response => response.json())
       .then(data => {
         const apiSlides = data.data.map(slide => ({
@@ -24,7 +25,7 @@ const BannerSection = () => {
         setSlides(apiSlides);
       })
       .catch(error => console.error('Error:', error));
-  }, []);
+  }, [school,baseUrl]);
   return (
     <>
 
